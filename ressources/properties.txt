@@ -1,0 +1,8 @@
+#mainColor #32323C
+#secondColor rgb(65, 65, 80)
+#lighterMainColor rgb(120, 120, 160)
+#textColor white
+#accentColor #69F0AE
+#secondAccentColor rgb(125, 85, 195)
+#thirdAccentColor rgb(255, 200, 40)
+#fourthAccentColor #EF5350

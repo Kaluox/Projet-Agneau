@@ -1,0 +1,234 @@
+QWidget
+{
+    background-color: #mainColor;
+    color: #textColor;
+    font-size: 10pt;
+}
+
+QPushButton
+{
+    border: 2px solid #textColor;
+    border-radius: 16px;
+    padding: 8px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 5px;
+}
+
+QPushButton:disabled
+{
+    background-color: #secondColor;
+    color: mainColor;
+    border-color: #secondColor;
+}
+
+QPushButton:hover
+{
+    border-color: #accentColor;
+}
+
+QPushButton:pressed
+{
+    background-color: #accentColor;
+}
+
+QSlider::groove
+{
+    background-color: #secondColor;
+    height: 3px;
+}
+
+QSlider::handle
+{
+    background-color: #accentColor;
+    width: 12px;
+    height: 10px;
+    margin-top: -5px;
+    margin-bottom: -5px;
+    border-radius: 5px;
+}
+
+QSlider::sub-page
+{
+    background-color: #accentColor;
+}
+
+QMenuBar
+{
+    background-color: #secondColor;
+}
+
+QMenuBar::item
+{
+    padding: 10px;
+    padding-bottom: 12px;
+}
+
+QMenuBar::item:selected
+{
+    background-color: #mainColor;
+    color: #accentColor;
+}
+
+QMenuBar::item:pressed
+{
+    background-color: #accentColor;
+    color: #textColor;
+}
+
+QMenu::item:selected
+{
+    color: #accentColor;
+}
+
+QMenu::item:pressed
+{
+    background-color: #accentColor;
+    color: #textColor;
+}
+
+QCheckBox
+{
+    border: 2px solid #accentColor;
+    background-color: #accentColor;
+    border-radius: 8px;
+    min-width: 10px;
+    max-width: 30px;
+    min-height: 12px;
+}
+
+QCheckBox::unchecked
+{
+    background-color: #fourthAccentColor;
+    border-color: #fourthAccentColor;
+}
+
+QCheckBox::checked
+{
+    background-color: #accentColor;
+    border-color: #accentColor;
+    padding-left: 16px;
+
+}
+
+QCheckBox::disabled
+{
+    background-color: #lighterMainColor;
+    border-color: #lighterMainColor;
+}
+QCheckBox::indicator
+{
+
+    border: 1px solid #mainColor;
+    border-radius: 6px;
+    background-color: #mainColor;
+    width: 10px;
+    height: 10px;
+}
+
+QRadioButton
+{
+    padding: 5px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+QRadioButton::indicator
+{
+    border: 2px solid white;
+    border-radius: 6px;
+    width: 8px;
+    height: 8px;
+    background-color: white;
+}
+
+QRadioButton::indicator:hover
+{
+    /*border-color: #accentColor;*/
+}
+
+QRadioButton::indicator:checked
+{
+    border-color: #accentColor;
+    background-color: #accentColor;
+}
+
+QRadioButton::hover
+{
+    color: #accentColor;
+}
+
+QRadioButton::checked
+{
+    color: #accentColor;
+}
+
+QGroupBox
+{
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+QGroupBox::title
+{
+    margin-top: -15px;
+    subcontrol-position: top;
+}
+
+QListWidget
+{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 1px;
+    padding-right: 3px;
+}
+
+QListWidget::item
+{
+    padding: 2px;
+}
+
+QListWidget::item:hover
+{
+    background-color: #lighterMainColor;
+}
+
+QListWidget::item:selected
+{
+    background-color: #accentColor;
+    color: #textColor;
+}
+
+QScrollBar
+{
+    background-color: #secondColor;
+}
+
+QScrollBar::sub-line
+{
+    background-color: #secondColor;
+}
+
+QScrollBar::add-line
+{
+    background-color: #secondColor;
+}
+
+QScrollBar::handle
+{
+    background-color: #mainColor;
+    border: 1px solid white;
+    border-radius: 8px;
+    min-height: 15px;
+}
+
+QScrollBar:sub-page
+{
+    background-color: #secondColor;
+}
+
+QScrollBar:add-page
+{
+    background-color: #secondColor;
+}

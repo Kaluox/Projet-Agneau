@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="properties.txt">ressources/properties.txt</file>
+        <file alias="style.css">ressources/style.css</file>
+    </qresource>
+</RCC>
