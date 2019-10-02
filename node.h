@@ -6,18 +6,45 @@
 #include <opencv2/highgui/highgui.hpp>
 #include <QDateTime>
 
-//using namespace cv;
+/**
+ * The class which stores a point of a trajectory.
+ */
+class Nodes
+{
+	private:
+		/** The coordinates of the point on the video. */
+		cv::Point2f center;
 
-class Nodes{
-    public:
-        Nodes();
-        Nodes(cv::Point2f center, QDateTime timeNow, int tmpCurrentFrame);
-        cv::Point2f &getCenter();
-        QString nodeToString();
-    private :
-        cv::Point2f center;
-        QDateTime timeNow;
-        int tmpCurrentFrame;
+		/** The time of the video matching the point. */
+		QDateTime timeNow;
+
+		/** The number of the frame. */
+		int tmpCurrentFrame;
+
+	public:
+		/**
+		 * The constructor by default of the Nodes class.
+		 */
+		Nodes();
+
+		/**
+		 * A custom constructor of the Nodes class.
+		 * @param center The point on the video.
+		 * @param timeNow The time of the video matching the point.
+		 * @param tmpCurrentFrame The number of the frame.
+		 */
+		Nodes(cv::Point2f center, QDateTime timeNow, int tmpCurrentFrame);
+
+		/**
+		 * A method which returns a reference to the Point2f OpenCV object storing the coordinates of the points on the video.
+		 * @return A reference to the Point2f OpenCV object storing the coordinates of the points on the video.
+		 */
+		cv::Point2f& getCenter();
+
+		/**
+		 * A method which returns a strong describing the point.
+		 */
+		QString nodeToString();
 };
 
 #endif // NODE_H
