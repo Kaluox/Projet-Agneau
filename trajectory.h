@@ -6,7 +6,8 @@
 /**
  * The class which stores the trajectory of a lamb in a video.
  */
-class Trajectory{
+class Trajectory
+{
     private:
         /** The trajectory, stored as a list of Nodes objects. */
         std::vector<Nodes> centerList;
@@ -39,9 +40,15 @@ class Trajectory{
         std::vector<Nodes>& getCenterList();
 
         /**
-         * 
+         * Set the 'centerBack' attribute to the value passed as an argument.
+         * @param node The new value of the 'centerBack' attribute.
          */
         void setLastCenter(Nodes& node);
+
+        /**
+         * Get the value of the 'centerBack' attribute.
+         * @return The value of the 'centerBack' attribute.
+         */
         Nodes getLastCenter();
 };
 
