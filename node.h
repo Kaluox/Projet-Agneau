@@ -42,7 +42,8 @@ class Nodes
 		cv::Point2f& getCenter();
 
 		/**
-		 * A method which returns a strong describing the point.
+		 * A method which returns a string describing the point.
+		 * @return A string describing the point.
 		 */
 		QString nodeToString();
 };
