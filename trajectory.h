@@ -3,20 +3,46 @@
 
 #include "node.h"
 
-
-using namespace std ;
-
+/**
+ * The class which stores the trajectory of a lamb in a video.
+ */
 class Trajectory{
+    private:
+        /** The trajectory, stored as a list of Nodes objects. */
+        std::vector<Nodes> centerList;
+
+        /** The last value of the array 'center'. */
+        Nodes centerBack;
+
     public:
+        /**
+         * The constructor by default of the Trajectory class.
+         */
         Trajectory();
-        void addPoint(Nodes& node) ;
+
+        /**
+         * A method which adds a point to the trajectory.
+         * @param node The point that is added to the trajectory.
+         */
+        void addPoint(Nodes& node);
+
+        /**
+         * A method which draws the trajectory in an OpenCV matrix.
+         * @param frame The matrice which will be drawn on.
+         */
         void drawTrajectoire(cv::Mat& frame);
-        vector<Nodes>& getCenterList();
+
+        /**
+         * A method which returns the trajectory as a list of Nodes objects.
+         * @return The trajectory.
+         */
+        std::vector<Nodes>& getCenterList();
+
+        /**
+         * 
+         */
         void setLastCenter(Nodes& node);
         Nodes getLastCenter();
-    private:
-        vector<Nodes> centerList;
-        Nodes centerBack;  //The last value of the array 'center'
 };
 
 #endif // TRAJECTORY_H
