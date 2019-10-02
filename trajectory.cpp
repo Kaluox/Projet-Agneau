@@ -2,7 +2,7 @@
 
 Trajectory::Trajectory(){}
 
-void Trajectory::addPoint(Nodes &node)
+void Trajectory::addPoint(Nodes& node)
 {
 	centerList.push_back(node);
 }
@@ -12,7 +12,7 @@ vector<Nodes>& Trajectory::getCenterList()
 	return centerList;
 }
 
-void Trajectory::setLastCenter(Nodes &node)
+void Trajectory::setLastCenter(Nodes& node)
 {
 	centerBack = node;
 }
