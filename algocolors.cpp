@@ -7,8 +7,16 @@
 #include <sstream>
 #include <QDebug>
 
+
+/**
+ * @brief Default constructor of AlgoColors - Does nothing
+ */
 AlgoColors::AlgoColors(){}
 
+/**
+ * @brief
+ * @param thresh
+ */
 void AlgoColors::morphObs(cv::Mat &thresh){
         cv::Mat erodeElement = cv::getStructuringElement(cv::MORPH_RECT, cv::Size(3, 3));
         //dilate with larger element so make sure object is nicely visible
@@ -21,6 +29,14 @@ void AlgoColors::morphObs(cv::Mat &thresh){
         cv::dilate(thresh, thresh, dilateElement);
 }
 
+/**
+ * @brief This method tells if the object is found or not.
+ * @param x
+ * @param y
+ * @param threshold
+ * @param cameraFeed
+ * @return boolean
+ */
 bool AlgoColors::trackFilteredObject(int &x, int &y, cv::Mat threshold, cv::Mat &cameraFeed){
 
     //qDebug() << "Intérieur de la méthode";

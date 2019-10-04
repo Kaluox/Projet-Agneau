@@ -51,7 +51,7 @@ HEADERS += \
     QCustomPlot/qcustomplot.h \
     cascadestylesheetloader.h
 
-#si opencv non trouvé après installation eéxécuter la commande suivante en remplaçant le chemin par le votre : setx -m OPENCV_DIR C:\opencv\build\x86\vc12
+#si opencv non trouvé après installation exécuter la commande suivante en remplaçant le chemin par le votre : setx -m OPENCV_DIR C:\opencv\build\x86\vc12
 INCLUDEPATH += "C:\opencv\build\include" \
 INCLUDEPATH += "C:\ffmpeg-4.1.3-win64-dev\include" \
 INCLUDEPATH += "C:\Program Files (x86)\Aquila\include\aquila"

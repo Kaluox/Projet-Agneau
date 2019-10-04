@@ -20,11 +20,11 @@ GestionVideo::~GestionVideo()
 }
 
 /**
- * @brief GestionVideo::extractVideo - extraire (couper) le video
+ * @brief GestionVideo::extractVideo - extraire (couper) la video
  * @param filenameOut: le nom de fichier de retour
  * @param start: le temps commence
  * @param end: le temps finit
- * @return le statu de processus
+ * @return le statut du processus
  */
 int GestionVideo::extractVideo(std::string filenameOut, int start, int end)
 {
@@ -220,7 +220,7 @@ int GestionVideo::extractVideo(std::string filenameOut, int start, int end)
 /**
  * @brief GestionVideo::extractAudio - extraire le son
  * @param filenameOut: le nom de fichier retour
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::extractAudio(std::string filenameOut)
 {    
@@ -239,7 +239,7 @@ int GestionVideo::extractAudio(std::string filenameOut)
 /**
  * @brief GestionVideo::open_input_file_extract_audio - récupérer le son vers le vidéo et decoder le son
  * @param filename: le nom de fichier vidéo
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::open_input_file_extract_audio(const char *filename)
 {
@@ -284,9 +284,9 @@ int GestionVideo::open_input_file_extract_audio(const char *filename)
 }
 
 /**
- * @brief GestionVideo::open_input_file_extract_video - decoder le vidéo
+ * @brief GestionVideo::open_input_file_extract_video - décoder la vidéo
  * @param filename: le nom de fichier vidéo
- * @return le status de processus
+ * @return le statut de processus
  */
 int GestionVideo::open_input_file_extract_video(const char *filename)
 {
@@ -323,7 +323,7 @@ int GestionVideo::open_input_file_extract_video(const char *filename)
 }
 
 /**
- * @brief GestionVideo::open_output_file_audio - ouvrire le fichier de son et encoder le fichier
+ * @brief GestionVideo::open_output_file_audio - ouvrir le fichier de son et encoder le fichier
  * @param filename: le nom de fichier
  * @return AVCodecContext correspond à ce fichier
  */
@@ -404,7 +404,7 @@ int GestionVideo::open_output_file_audio(const char *filename)
 }
 
 /**
- * @brief GestionVideo::open_output_file_video - ouvrire le vidéo et encoder
+ * @brief GestionVideo::open_output_file_video - ouvrir la vidéo et encoder
  * @param filename: le nom de fichier
  * @return AVCodecContext correspond à ce fichier
  */
@@ -514,7 +514,7 @@ int GestionVideo::open_output_file_video(const char *filename)
  * @param dec_ctx: codec context
  * @param enc_ctx: codec context
  * @param filter_spec
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::init_filter(FilteringContext* fctx, AVCodecContext *dec_ctx,
                        AVCodecContext *enc_ctx, const char *filter_spec)
@@ -710,7 +710,7 @@ int GestionVideo::init_filter(FilteringContext* fctx, AVCodecContext *dec_ctx,
 
 /**
  * @brief GestionVideo::init_filters_audio - initialiser filter de son
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::init_filters_audio()
 {
@@ -732,7 +732,7 @@ int GestionVideo::init_filters_audio()
 
 /**
  * @brief GestionVideo::init_filters_video - - initialiser filter de vidéo
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::init_filters_video()
 {
@@ -766,7 +766,7 @@ int GestionVideo::init_filters_video()
  * @param filt_frame: frame de filter
  * @param stream_index
  * @param got_frame
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::encode_write_frame(AVFrame *filt_frame, unsigned int stream_index, int *got_frame)
 {
@@ -811,7 +811,7 @@ int GestionVideo::encode_write_frame(AVFrame *filt_frame, unsigned int stream_in
  * @param frame: frame de filter
  * @param stream_index_in
  * @param stream_index_out
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::filter_encode_write_frame(AVFrame *frame, unsigned int stream_index_in, unsigned int stream_index_out)
 {
@@ -858,9 +858,9 @@ int GestionVideo::filter_encode_write_frame(AVFrame *frame, unsigned int stream_
 }
 
 /**
- * @brief GestionVideo::flush_encoder - libérer (netoyyer) l'encodeur
+ * @brief GestionVideo::flush_encoder - libérer (nettoyer) l'encodeur
  * @param stream_index
- * @return le statu de processus
+ * @return le statut de processus
  */
 int GestionVideo::flush_encoder(unsigned int stream_index)
 {

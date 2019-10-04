@@ -15,7 +15,7 @@ CascadeStyleSheetLoader::CascadeStyleSheetLoader()
 
 /**
  * @brief CascadeStyleSheetLoader::getInstance
- * @return
+ * @return instance
  */
 CascadeStyleSheetLoader& CascadeStyleSheetLoader::getInstance()
 {

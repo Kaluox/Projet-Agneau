@@ -4,6 +4,14 @@
 #include <time.h>
 #include <conio.h>
 
+
+/**
+ * @brief
+ * @param shiftMax
+ * @param startFrame
+ * @param choosenObject
+ * @param nbFrame
+ */
 AlgoSubstraction::AlgoSubstraction(int shiftMax, cv::Mat& startFrame, cv::Mat* choosenObject, int nbFrame)
 {
     biggestSurface=0;
@@ -30,8 +38,7 @@ AlgoSubstraction::AlgoSubstraction(int shiftMax, cv::Mat& startFrame, cv::Mat* c
 
 
 /**
- * La fonction principale de détection et suivie
- * @brief AlgoSoustraction::decter
+ * @brief AlgoSoustraction::decter - La fonction principale de détection et suivie
  * @param currentFrame: Image courante de la vidéo
  * @param nbFrame: Numéro du frame courante
  */

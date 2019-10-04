@@ -8,6 +8,7 @@
 #include "opencv2/imgproc/imgproc.hpp"
 #include <opencv2/core/core.hpp>
 #include <opencv2/opencv.hpp>
+
 class AlgoSubstraction{
     public:
         AlgoSubstraction(int shiftMax, cv::Mat& startFrame, cv::Mat* choosenObject, int nbFrame);
