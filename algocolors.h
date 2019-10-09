@@ -7,8 +7,26 @@
 
 class AlgoColors{
     public:
+
+        /**
+         * @brief Default constructor of AlgoColors - Does nothing
+         */
         AlgoColors();
+
+        /**
+         * @brief The object given is eroded and dilated to be more visible
+         * @param cv::Mat & thresh
+         */
         void morphObs(cv::Mat &thresh);
+
+        /**
+         * @brief This method tells if the object is found or not.
+         * @param x
+         * @param y
+         * @param threshold
+         * @param cameraFeed
+         * @return boolean
+         */
         bool trackFilteredObject(int &x, int &y, cv::Mat threshold, cv::Mat &cameraFeed);
 };
 
