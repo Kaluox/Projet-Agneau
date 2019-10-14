@@ -11,15 +11,46 @@
 
 class AlgoSubstraction{
     public:
-        AlgoSubstraction(int shiftMax, cv::Mat& startFrame, cv::Mat* choosenObject, int nbFrame);
-        void run(cv::Mat & currentFrame, int nbFrame, int&, int&);
-        cv::Mat generateBinaryImage(cv::Mat &);
-        void computeHistogram(cv::Mat &);
 
+        /**
+        * @brief Constructor
+        * @param shiftMax
+        * @param startFrame
+        * @param choosenObject
+        * @param nbFrame
+        */
+        AlgoSubstraction(int shiftMax, cv::Mat& startFrame, cv::Mat* choosenObject, int nbFrame);
+
+        /**
+        * @brief AlgoSoustraction::decter - La fonction principale de détection et suivie
+        * @param currentFrame: Image courante de la vidéo
+        * @param nbFrame: Numéro du frame courante
+        */
+        void run(cv::Mat & currentFrame, int nbFrame, int&, int&);
+
+        /**
+         *
+         * @brief Get the binary image
+         * @param tmp
+         * @return cv::Mat
+         */
+        cv::Mat generateBinaryImage(cv::Mat & tmp);
+
+        /**
+         * Histogram
+         * @brief AlgoSoustraction::calculeHistogram
+         * @param src
+         */
+        void computeHistogram(cv::Mat & src);
+
+        /**
+         * @brief getter of trajectory
+         * @return Trajectory
+         */
         Trajectory getTrajectory() ;
 
     private:
-        int shiftMax;     //Parameters of deplacementmax
+        int shiftMax;     //Parameters of deplacement max
         cv::Mat startFrame;        //image of start frame
         cv::Mat *choosenObject;        //object choose
         cv::Mat binaryBackground;        //binary background image
@@ -38,7 +69,7 @@ class AlgoSubstraction{
         double thresholdBlueMax;   //The upper limit of blue channel
 
         ObjectInformation myObject;
-        Trajectory myTrajectoire;
+        Trajectory myTrajectory;
 
 };
 

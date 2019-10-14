@@ -5,13 +5,8 @@
 #include <conio.h>
 
 
-/**
- * @brief
- * @param shiftMax
- * @param startFrame
- * @param choosenObject
- * @param nbFrame
- */
+
+/// Constructor of algosubstraction
 AlgoSubstraction::AlgoSubstraction(int shiftMax, cv::Mat& startFrame, cv::Mat* choosenObject, int nbFrame)
 {
     biggestSurface=0;
@@ -37,11 +32,7 @@ AlgoSubstraction::AlgoSubstraction(int shiftMax, cv::Mat& startFrame, cv::Mat* c
 }
 
 
-/**
- * @brief AlgoSoustraction::decter - La fonction principale de détection et suivie
- * @param currentFrame: Image courante de la vidéo
- * @param nbFrame: Numéro du frame courante
- */
+
 void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
 {
     clock_t t_start,t_end, t_start1, t_end1;
@@ -75,9 +66,9 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
 
     // Determine whether or not the object moves out of range of video
     if(contours.size() == 0){
-        if(!myTrajectoire.getCenterList().empty())
-            myTrajectoire.setLastCenter(myTrajectoire.getCenterList().back());
-        myTrajectoire.getCenterList().clear();
+        if(!myTrajectory.getCenterList().empty())
+            myTrajectory.setLastCenter(myTrajectory.getCenterList().back());
+        myTrajectory.getCenterList().clear();
     }else if(contours.size() >= 1){
         // Find the biggest Connected domain
         for( unsigned int i = 0; i < contours.size(); i++ )
@@ -91,12 +82,12 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
         minEnclosingCircle( (cv::Mat)contours[biggestSurfaceId], center, radius);
         biggestSurface = 0;
         biggestSurfaceId = 0;
-        if(!myTrajectoire.getCenterList().empty()){
-             double x = myTrajectoire.getCenterList().back().getCenter().x;
-             double y = myTrajectoire.getCenterList().back().getCenter().y;
+        if(!myTrajectory.getCenterList().empty()){
+             double x = myTrajectory.getCenterList().back().getCenter().x;
+             double y = myTrajectory.getCenterList().back().getCenter().y;
             if(sqrt((x-center.x)*(x-center.x) + (y-center.y)*(y-center.y))<shiftMax){
                 Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
-                myTrajectoire.addPoint(nodecenter);
+                myTrajectory.addPoint(nodecenter);
                 double obj_x = center.x - radius*2/3;
                 double obj_y = center.y - radius*2/3;
                 if(obj_x < 0 )obj_x = 0;
@@ -107,23 +98,23 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
                 *choosenObject = obj_courant;
             //Clear trajectoire
             }else
-                myTrajectoire.getCenterList().clear();
+                myTrajectory.getCenterList().clear();
         }else{
             //If it is the first image
             if(firstFrame){
                 firstFrame = false;
                 Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
-                myTrajectoire.addPoint(nodecenter);
+                myTrajectory.addPoint(nodecenter);
                 //circle( currentFrame, center, (int)radius, color, 2, 8, 0 );//draw circle
                 //circle( currentFrame, center, 2, color, -1, 8, 0 );//draw the center of circle
                 x = center.x ;
                 y = center.y ;
             //If it moves too fast in the last image
-            }else if(sqrt((myTrajectoire.getLastCenter().getCenter().x-center.x)*(myTrajectoire.getLastCenter().getCenter().x-center.x)
-                     + (myTrajectoire.getLastCenter().getCenter().y-center.y)*(myTrajectoire.getLastCenter().getCenter().y-center.y))<shiftMax*3/2)
+            }else if(sqrt((myTrajectory.getLastCenter().getCenter().x-center.x)*(myTrajectory.getLastCenter().getCenter().x-center.x)
+                     + (myTrajectory.getLastCenter().getCenter().y-center.y)*(myTrajectory.getLastCenter().getCenter().y-center.y))<shiftMax*3/2)
             {
                 Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
-                myTrajectoire.addPoint(nodecenter);
+                myTrajectory.addPoint(nodecenter);
                 //circle( currentFrame, center, (int)radius, color, 2, 8, 0 );
                 //circle( currentFrame, center, 2, color, -1, 8, 0 );
                 x = center.x ;
@@ -137,7 +128,7 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
                     count_refond=0;
                     if(center.x > 0 && center.y > 0){
                         Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
-                        myTrajectoire.addPoint(nodecenter);
+                        myTrajectory.addPoint(nodecenter);
                         //circle( currentFrame, center, (int)radius, color, 2, 8, 0 );
                         //circle( currentFrame, center, 2, color, -1, 8, 0 );
                         x = center.x ;
@@ -152,12 +143,9 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
 
 
 
-/**
- * Get the binary image
- * @brief AlgoSoustraction::generateBinaryImage
- * @param tmp
- * @return
- */
+///
+/// This function takes an image and returns its binary image by calculating its binaryRedMax, binaryGreenMax and binaryBlueMax values.
+///
 cv::Mat AlgoSubstraction::generateBinaryImage(cv::Mat& tmp)
 {
     cv::Mat binary;
@@ -186,12 +174,7 @@ cv::Mat AlgoSubstraction::generateBinaryImage(cv::Mat& tmp)
     return binary;
 }
 
-
-/**
- * Histogram
- * @brief AlgoSoustraction::calculeHistogram
- * @param src
- */
+/// Computes the histogram
 void AlgoSubstraction::computeHistogram(cv::Mat & src){
     // Separate the image in 3 places ( B, G and R )
     vector<cv::Mat> bgr_planes;
@@ -276,6 +259,8 @@ void AlgoSubstraction::computeHistogram(cv::Mat & src){
       if(thresholdBlueMax>=256)thresholdBlueMax=255;
 }
 
-Trajectory AlgoSubstraction::getTrajectory(){return myTrajectoire ; }
+
+/// Getter of trajectory
+Trajectory AlgoSubstraction::getTrajectory(){return myTrajectory ; }
 
 
