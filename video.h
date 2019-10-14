@@ -92,14 +92,38 @@ class Video : public QThread{
         /**
          * The destructor of the Video class.
          */
-        ~Video() ;
-        void play() ;
-        void stop() ;
-        bool isStopped() ;
+        ~Video();
+        
+        void play();
+        void stop();
+
+        /**
+         * A method which returns whether the video is stopped or not.
+         */
+        bool isStopped();
+
+        /**
+         * A method which resumes the video.
+         */
         void resume();
+
+        /**
+         * A method which pauses the video.
+         */
         void pause();
         int getMsecPos();
-        bool loadVideo(std::string filename) ;
+
+        /**
+         * A method which load a video from a file whose path is given as a parameter.
+         * @param filename The path of the video.
+         * @return Whether the video was successfully loaded or not.
+         */
+        bool loadVideo(std::string filename);
+
+        /**
+         * A method which returns a QImage object for the current frame of the video.
+         * @return A QImage matching the current frame.
+         */
         QImage getCurrentFrame();
         double getSecFromNbFrame(double nbFrames) ;
         void setCurrentFrame(int frameNumber) ;
