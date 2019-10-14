@@ -19,8 +19,8 @@
 #include "algocolors.h"
 
 
-class Video : public QThread{
-
+class Video : public QThread
+{
     Q_OBJECT
 
     private:
@@ -93,7 +93,7 @@ class Video : public QThread{
          * The destructor of the Video class.
          */
         ~Video();
-        
+
         void play();
         void stop();
 
