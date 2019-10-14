@@ -81,6 +81,7 @@ void Video::play(){
 }
 
 void Video::stop(){stopBool = true ;}
+
 bool Video::isStopped(){ return stopBool ;}
 
 void Video::resume() {
