@@ -28,12 +28,15 @@ class Video : public QThread{
         QMutex destructorMutex;
 
         /** A mutex used in the methods pausing and resuming the video. */
-        QMutex sync;
+        QMutex pauseAndResumeMutex;
+
         QWaitCondition condition ;
         QWaitCondition pauseCond;
         bool stopBool, boolFirstFrame, trajectoryChecked, visualize, treatment, keepRunning ;
         cv::Mat frame, firstFrame,RGBframe ;
         double framerate ;
+
+        /** The full path to the video. */
         std::string fullpath;
         cv::VideoCapture videoCapture ;
 
@@ -81,7 +84,14 @@ class Video : public QThread{
     protected :
         void run();
     public:
+        /**
+         * The constructor by default of the Video class.
+         */
         Video();
+
+        /**
+         * The destructor of the Video class.
+         */
         ~Video() ;
         void play() ;
         void stop() ;

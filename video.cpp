@@ -84,19 +84,19 @@ void Video::stop(){stopBool = true ;}
 bool Video::isStopped(){ return stopBool ;}
 
 void Video::resume() {
-    sync.lock();
+    pauseAndResumeMutex.lock();
     qDebug() << "resume";
     stopBool = false;
-    sync.unlock();
+    pauseAndResumeMutex.unlock();
     pauseCond.wakeAll();
 }
 
 void Video::pause()
 {
-    sync.lock();
+    pauseAndResumeMutex.lock();
     qDebug() << "pause";
     stopBool = true;
-    sync.unlock();
+    pauseAndResumeMutex.unlock();
 }
 
 void Video::run(){
