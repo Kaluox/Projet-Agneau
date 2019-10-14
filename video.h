@@ -24,7 +24,10 @@ class Video : public QThread{
     Q_OBJECT
 
     private:
-        QMutex mutex ;
+        /** A mutex used in the destructor of the Video class. */
+        QMutex destructorMutex;
+
+        /** A mutex used in the methods pausing and resuming the video. */
         QMutex sync;
         QWaitCondition condition ;
         QWaitCondition pauseCond;

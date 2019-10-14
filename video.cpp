@@ -536,11 +536,11 @@ int Video::timeVideo()
 }
 
 Video::~Video(){
-    mutex.lock();
+    destructorMutex.lock();
     stopBool = true ;
     videoCapture.release();
     condition.wakeOne();
-    mutex.unlock();
+    destructorMutex.unlock();
     wait() ;
 
     delete algoColors ;
