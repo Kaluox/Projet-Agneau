@@ -6,29 +6,22 @@
 
 // Code *******************************************************************************************
 
-/**
- * @brief CascadeStyleSheetLoader::CascadeStyleSheetLoader
- */
+
+/// Constructors
 CascadeStyleSheetLoader::CascadeStyleSheetLoader()
 {
 }
 
-/**
- * @brief CascadeStyleSheetLoader::getInstance
- * @return instance
- */
+
+ ///Get the instance
 CascadeStyleSheetLoader& CascadeStyleSheetLoader::getInstance()
 {
     static CascadeStyleSheetLoader instance;
     return instance;
 }
 
-/**
- * @brief CascadeStyleSheetLoader::addPropertiesFile
- * @param propertiesFileName (QString) : The path of the file to load the properties from
- *
- * Load a list of properties from a file and add them to the list of the loaded properties for the next reload
- */
+
+///Load a list of properties from a file and add them to the list of the loaded properties for the next reload
 void CascadeStyleSheetLoader::addPropertiesFile(const QString& propertiesFileName)
 {
     QFile propertiesFile(propertiesFileName);
@@ -52,12 +45,8 @@ void CascadeStyleSheetLoader::addPropertiesFile(const QString& propertiesFileNam
     }
 }
 
-/**
- * @brief CascadeStyleSheetLoader::addStyleSheetFile
- * @param stylesheetFileName (QString) : The path of the file to load the style from
- *
- * Load a stylesheet and add it to the global stylesheet for the next reload
- */
+
+///Load a stylesheet and add it to the global stylesheet for the next reload
 void CascadeStyleSheetLoader::addStyleSheetFile(const QString& stylesheetFileName)
 {
     QFile stylesheetFile(stylesheetFileName);
@@ -69,12 +58,7 @@ void CascadeStyleSheetLoader::addStyleSheetFile(const QString& stylesheetFileNam
     }
 }
 
-/**
- * @brief CascadeStyleSheetLoader::reload
- * @param app (QApplication) : The target on which to apply the style
- *
- * Apply the style to the target application based on all the previously added stylesheet and properties
- */
+///Apply the style to the target application based on all the previously added stylesheet and properties
 void CascadeStyleSheetLoader::reload(QApplication &app) const
 {
     QString finalStyle = baseDocument;
@@ -87,6 +71,8 @@ void CascadeStyleSheetLoader::reload(QApplication &app) const
     app.setStyleSheet(finalStyle);
 }
 
+
+///Returns the property (which is a QString)
 QString CascadeStyleSheetLoader::getProperty(const QString &propertyName)
 {
     for (int i = 0; i < propertiesList.size(); i++)

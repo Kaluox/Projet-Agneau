@@ -11,21 +11,48 @@
 class CascadeStyleSheetLoader
 {
 private:
-    // Constructors and destructor
+
+    /**
+    * @brief CascadeStyleSheetLoader::CascadeStyleSheetLoader
+    */
     CascadeStyleSheetLoader();
 
 public:
 
+
+    /**
+     * @brief CascadeStyleSheetLoader::getInstance
+     * @return instance
+     */
     static CascadeStyleSheetLoader& getInstance();
 
-    // Methods
+
+    /**
+    * @brief CascadeStyleSheetLoader::addPropertiesFile
+    * @param propertiesFileName (QString) : The path of the file to load the properties from
+    */
     void addPropertiesFile(const QString& propertiesFileName);
+
+
+    /**
+    * @brief CascadeStyleSheetLoader::addStyleSheetFile
+    * @param stylesheetFileName (QString) : The path of the file to load the style from
+    */
     void addStyleSheetFile(const QString& stylesheetFileName);
+
+    /**
+     * @brief CascadeStyleSheetLoader::reload
+     * @param app (QApplication) : The target on which to apply the style
+     */
     void reload(QApplication &app) const;
     QString getProperty(const QString& propertyName);
 
 private:
+
+    ///List of (QString, QString) properties
     QList<QPair<QString, QString>> propertiesList;
+
+    ///Base Document
     QString baseDocument;
 };
 
