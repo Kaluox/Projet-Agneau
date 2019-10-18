@@ -30,11 +30,13 @@ class Model
 
 		/**
 		 * A method which returns the image part of the video that is processed by the application.
+		 * @return The image part of the video.
 		 */
 		Video* getVideo();
 
 		/**
 		 * A method which returns the sound part of the video that is processed by the application.
+		 * @return The sound part of the video.
 		 */
 		Sound* getSound();
 };
