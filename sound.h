@@ -1,24 +1,27 @@
 #ifndef SOUND_H
 #define SOUND_H
 
-#include <QString>
-#include <sstream>
-#include <iostream>
 #include <fstream>
-#include <QDebug>
+#include <iostream>
+#include <sstream>
 #include <stdio.h>
-#include <QObject>
-#include <QMediaPlayer>
+
+#include <QAudioDecoder>
 #include <QColor>
-#include "QCustomPlot/qcustomplot.h"
+#include <QDebug>
+#include <QMediaPlayer>
 #include <QMutex>
+#include <QObject>
+#include <QString>
 #include <QThread>
 #include <QWaitCondition>
+
+#include "QCustomPlot/qcustomplot.h"
+
 #include <soundwave.h>
-#include <QAudioDecoder>
-class Sound{
 
-
+class Sound
+{
     private:
         QString soundFileClass_0 ;
         QString soundFileClass_1 ;
@@ -34,17 +37,37 @@ class Sound{
         QString resultSoundFile_4 ;
 
         QMediaPlayer* qMediaPlayer ;
-        QAudioBuffer* buffer;
-        QAudioDecoder* audioDecoder;
         QCPItemLine* item;
-        QVector<double> samples;
         QPen curvePen;
+
+        /** A Qt component which allow decoding the sound file. */
+        QAudioDecoder* audioDecoder;
+
+        /** A Qt component which contain the audio samples read from the decoder. */
+        QAudioBuffer* buffer;
+
+        /** A list of samples obtained from the buffer. */
+        QVector<double> samples;
+
+        /** An instance of the Soundwave class. */
         Soundwave* soundwave;
 
     public:
+        /**
+         * The constructor by default of the Sound class.
+         */
         Sound();
+
+        /**
+         * The destructor of the Sound class.
+         */
         ~Sound();
-        void extractSound(QString filename) ;
+
+        /**
+         * A method which extracts the sound part of the video from a video file.
+         */
+        void extractSound(QString filename);
+
         void initPlotVectors(unsigned int frameCount, QCustomPlot & qCPsoundSignal, QString filename);
         void initCursor(QCustomPlot & qCPsoundSignal);
         void updateCursor(int value, QCustomPlot & qCPsoundSignal);
