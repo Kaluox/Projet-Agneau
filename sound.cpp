@@ -177,17 +177,31 @@ void Sound::updateCursor(int value, QCustomPlot & qCPsoundSignal){
 		qCPsoundSignal.layer("cursorLayer")->replot();
 }
 
-void Sound::setMedia(QString filename){
+void Sound::setMedia(QString filename)
+{
 		qMediaPlayer->setMedia(QUrl::fromLocalFile(filename));
 		qMediaPlayer->setVolume(100);
 }
 
-void Sound::play(){
-		qMediaPlayer->play();
-									}
-void Sound::pause(){qMediaPlayer->pause();}
-void Sound::stop(){qMediaPlayer->stop();}
-void Sound::setPosition(qint64 position){qMediaPlayer->setPosition(position);}
+void Sound::play()
+{
+	qMediaPlayer->play();
+}
+
+void Sound::pause()
+{
+	qMediaPlayer->pause();
+}
+
+void Sound::stop()
+{
+	qMediaPlayer->stop();
+}
+
+void Sound::setPosition(qint64 position)
+{
+	qMediaPlayer->setPosition(position);
+}
 
 void Sound::setSoundFileClass_0(QString filename){soundFileClass_0 = filename ;}
 void Sound::setSoundFileClass_1(QString filename){soundFileClass_1 = filename ;}
