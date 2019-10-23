@@ -12,11 +12,16 @@ class Soundwave : public QCustomPlot
 
 	/** Is it necessary to set the scope of the variables to public? */
 	public:
-		/** The Qt component which allow decoding the sound file. */
+		/** A Qt component which allow decoding the sound file. */
 		QAudioDecoder* decoder;
 
+		/** A Qt component which contain the audio samples read from the decoder. */
 		QAudioBuffer buffer;
+
+		/** A list of samples obtained from the buffer. */
 		QVector<double> samples;
+
+		/** A graph created from the samples. */
 		QCPGraph* wavePlot;
 
 	public:
@@ -40,12 +45,19 @@ class Soundwave : public QCustomPlot
 
 		/**
 		 * A method which returns the QAudioDecoder object.
-		 * @return The QAudioDecoder object.
+		 * @return A pointer to the QAudioDecoder object.
 		 */
 		QAudioDecoder* getDecoder();
 
 	public slots:
+		/**
+		 * A method which set the buffer and the list of samples.
+		 */
 		void setBuffer();
+
+		/**
+		 * A method which create a graph from the list of samples.
+		 */
 		void plot();
 };
 
