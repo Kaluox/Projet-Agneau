@@ -2,10 +2,9 @@
 #include <QProcess>
 #include <QDebug>
 
-/**
- * @brief GestionVideo::GestionVideo constructeur
- * @param filename : le nom de fichier video
- */
+
+
+///@brief GestionVideo::GestionVideo constructeur
 GestionVideo::GestionVideo(std::string filename)
 {
     this->filename = filename;
@@ -14,18 +13,15 @@ GestionVideo::GestionVideo(std::string filename)
     av_register_all();
 }
 
+
+///Default destructor
 GestionVideo::~GestionVideo()
 {
 
 }
 
-/**
- * @brief GestionVideo::extractVideo - extraire (couper) la video
- * @param filenameOut: le nom de fichier de retour
- * @param start: le temps commence
- * @param end: le temps finit
- * @return le statut du processus
- */
+
+///Extract the video
 int GestionVideo::extractVideo(std::string filenameOut, int start, int end)
 {
     this->start = start;
@@ -217,11 +213,8 @@ int GestionVideo::extractVideo(std::string filenameOut, int start, int end)
     return 0;
 }
 
-/**
- * @brief GestionVideo::extractAudio - extraire le son
- * @param filenameOut: le nom de fichier retour
- * @return le statut de processus
- */
+
+///Extracts the sound
 int GestionVideo::extractAudio(std::string filenameOut)
 {    
     qDebug()<< "Extract Audio";
@@ -236,11 +229,8 @@ int GestionVideo::extractAudio(std::string filenameOut)
     return 0;
 }
 
-/**
- * @brief GestionVideo::open_input_file_extract_audio - récupérer le son vers le vidéo et decoder le son
- * @param filename: le nom de fichier vidéo
- * @return le statut de processus
- */
+
+ ///Gets the sound extracted from the video and decode it
 int GestionVideo::open_input_file_extract_audio(const char *filename)
 {
     int ret;
@@ -283,11 +273,8 @@ int GestionVideo::open_input_file_extract_audio(const char *filename)
     return 0;
 }
 
-/**
- * @brief GestionVideo::open_input_file_extract_video - décoder la vidéo
- * @param filename: le nom de fichier vidéo
- * @return le statut de processus
- */
+
+ ///Decode the video
 int GestionVideo::open_input_file_extract_video(const char *filename)
 {
     int ret;
@@ -322,11 +309,8 @@ int GestionVideo::open_input_file_extract_video(const char *filename)
     return 0;
 }
 
-/**
- * @brief GestionVideo::open_output_file_audio - ouvrir le fichier de son et encoder le fichier
- * @param filename: le nom de fichier
- * @return AVCodecContext correspond à ce fichier
- */
+
+ ///Opens the sound file and encodes it
 int GestionVideo::open_output_file_audio(const char *filename)
 {
     AVStream *out_stream;
@@ -403,11 +387,8 @@ int GestionVideo::open_output_file_audio(const char *filename)
     return 0;
 }
 
-/**
- * @brief GestionVideo::open_output_file_video - ouvrir la vidéo et encoder
- * @param filename: le nom de fichier
- * @return AVCodecContext correspond à ce fichier
- */
+
+ ///Opens the video and encodes it
 int GestionVideo::open_output_file_video(const char *filename)
 {
     AVStream *out_stream;
@@ -508,14 +489,8 @@ int GestionVideo::open_output_file_video(const char *filename)
     return 0;
 }
 
-/**
- * @brief GestionVideo::init_filter - initialiser le filter
- * @param fctx: filter context
- * @param dec_ctx: codec context
- * @param enc_ctx: codec context
- * @param filter_spec
- * @return le statut de processus
- */
+
+ ///Initializes the filter
 int GestionVideo::init_filter(FilteringContext* fctx, AVCodecContext *dec_ctx,
                        AVCodecContext *enc_ctx, const char *filter_spec)
 {
@@ -708,10 +683,8 @@ int GestionVideo::init_filter(FilteringContext* fctx, AVCodecContext *dec_ctx,
     return ret;
 }
 
-/**
- * @brief GestionVideo::init_filters_audio - initialiser filter de son
- * @return le statut de processus
- */
+
+ ///Initializes the sound filter
 int GestionVideo::init_filters_audio()
 {
     const char *filter_spec;
@@ -730,10 +703,7 @@ int GestionVideo::init_filters_audio()
     return 0;
 }
 
-/**
- * @brief GestionVideo::init_filters_video - - initialiser filter de vidéo
- * @return le statut de processus
- */
+///Initializes the video filter
 int GestionVideo::init_filters_video()
 {
     const char *filter_spec;
@@ -761,13 +731,8 @@ int GestionVideo::init_filters_video()
     return 0;
 }
 
-/**
- * @brief GestionVideo::encode_write_frame - encoder le filter
- * @param filt_frame: frame de filter
- * @param stream_index
- * @param got_frame
- * @return le statut de processus
- */
+
+ ///Encodes the filter
 int GestionVideo::encode_write_frame(AVFrame *filt_frame, unsigned int stream_index, int *got_frame)
 {
     int ret;
@@ -806,13 +771,8 @@ int GestionVideo::encode_write_frame(AVFrame *filt_frame, unsigned int stream_in
     return ret;
 }
 
-/**
- * @brief GestionVideo::filter_encode_write_frame - encode AVFrame
- * @param frame: frame de filter
- * @param stream_index_in
- * @param stream_index_out
- * @return le statut de processus
- */
+
+///Encodes AVFrame
 int GestionVideo::filter_encode_write_frame(AVFrame *frame, unsigned int stream_index_in, unsigned int stream_index_out)
 {
     int ret = 0;
@@ -857,11 +817,8 @@ int GestionVideo::filter_encode_write_frame(AVFrame *frame, unsigned int stream_
     return ret;
 }
 
-/**
- * @brief GestionVideo::flush_encoder - libérer (nettoyer) l'encodeur
- * @param stream_index
- * @return le statut de processus
- */
+
+///Cleans the encoder
 int GestionVideo::flush_encoder(unsigned int stream_index)
 {
     int ret = 0;
@@ -875,12 +832,8 @@ int GestionVideo::flush_encoder(unsigned int stream_index)
     return ret;
 }
 
-/**
- * @brief GestionVideo::freeMemory - libérer les mémoires
- * @param packet: AVPacket
- * @param frame: AVFrame
- * @param filter_ctx: Filtering Context
- */
+
+///Frees the memories
 void GestionVideo::freeMemory(AVPacket * packet, AVFrame *frame, FilteringContext * filter_ctx)
 {
     if(packet->data != NULL)

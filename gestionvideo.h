@@ -32,6 +32,8 @@ extern "C" {
 #include <libavutil/pixdesc.h>
 #include <libavutil/frame.h>
 }
+
+///Struct OutputStream
 typedef struct OutputStream {
     AVStream *st;
     AVCodecContext *enc;
@@ -49,21 +51,50 @@ typedef struct OutputStream {
     struct SwrContext *swr_ctx;
 } OutputStream;
 
+///Struct FilteringContext
 typedef struct FilteringContext {
     AVFilterContext *buffersink_ctx;
     AVFilterContext *buffersrc_ctx;
     AVFilterGraph *filter_graph;
 } FilteringContext;
+
+///Static FilteringContext
 static FilteringContext *filter_ctx;
+
 
 class GestionVideo
 {
 public:
+
+    /**
+     * @brief GestionVideo::GestionVideo Constructor
+     * @param filename : name of video file
+     */
     GestionVideo(std::string filename);
+
+    /**
+     * @brief Default destructor ; does nothing
+     */
     ~GestionVideo();
 
+    /**
+     * @brief GestionVideo::extractVideo - Extracts the video
+     * @param filenameOut: Name of out file
+     * @param start: Time at start
+     * @param end: Time at the end
+     * @return the status of the process
+     */
     int extractVideo(std::string filenameOut, int start, int end);
+
+
+    /**
+     * @brief GestionVideo::extractAudio - Extracts the sound
+     * @param filenameOut: The name of the out file
+     * @return the status of the process
+     */
     int extractAudio(std::string filenameOut);
+
+
 private:
     /*void readFrame(std::string filename);
     int write_frame(AVFormatContext *fmt_ctx, const AVRational *time_base, AVStream *st, AVPacket *pkt);
@@ -84,18 +115,93 @@ private:
 
 
 
+    /**
+     * @brief GestionVideo::open_input_file_extract_audio - Gets the sound extracted from the video and decode it
+     * @param filename: the name of the video file
+     * @return the status of the process
+     */
     int open_input_file_extract_audio(const char *filename);
+
+
+    /**
+     * @brief GestionVideo::open_input_file_extract_video - Decode the video
+     * @param filename: Name of the video file
+     * @return The status of the process
+     */
     int open_input_file_extract_video(const char *filename);
+
+    /**
+     * @brief GestionVideo::open_output_file_audio - Opens the sound file and encodes it
+     * @param filename: The name of the file
+     * @return AVCodecContext corresponding to this file
+     */
     int open_output_file_audio(const char *filename);
+
+    /**
+     * @brief GestionVideo::open_output_file_video - Opens the video file and encodes it
+     * @param filename: The name of the file
+     * @return AVCodecContext corresponding to this file
+     */
     int open_output_file_video(const char *filename);
+
+    /**
+     * @brief GestionVideo::init_filter - Initializes the filter
+     * @param fctx: filter context
+     * @param dec_ctx: codec context
+     * @param enc_ctx: codec context
+     * @param filter_spec
+     * @return The status of the process
+     */
     int init_filter(FilteringContext* fctx, AVCodecContext *dec_ctx,
                            AVCodecContext *enc_ctx, const char *filter_spec);
+
+    /**
+     * @brief GestionVideo::init_filters_video - - Initializes the video filter
+     * @return The status of the process
+     */
     int init_filters_video();
+
+
+    /**
+     * @brief GestionVideo::init_filters_audio - Initializes the sound filter
+     * @return The status of the process
+     */
     int init_filters_audio();
+
+    /**
+     * @brief GestionVideo::encode_write_frame - Encodes the filter
+     * @param filt_frame: filter's frame
+     * @param stream_index
+     * @param got_frame
+     * @return Status of the process
+     */
     int encode_write_frame(AVFrame *filt_frame, unsigned int stream_index, int *got_frame);
+
+    /**
+     * @brief GestionVideo::filter_encode_write_frame - encodes AVFrame
+     * @param frame: filter's frame
+     * @param stream_index_in
+     * @param stream_index_out
+     * @return Status of the process
+     */
     int filter_encode_write_frame(AVFrame *frame, unsigned int stream_index_in, unsigned int stream_index_out);
+
+    /**
+     * @brief GestionVideo::flush_encoder - Cleans the encoder
+     * @param stream_index
+     * @return Status of the process
+     */
     int flush_encoder(unsigned int stream_index);
+
+    /**
+     * @brief GestionVideo::freeMemory - Frees the memories
+     * @param packet: AVPacket
+     * @param frame: AVFrame
+     * @param filter_ctx: Filtering Context
+     */
     void freeMemory(AVPacket * packet, AVFrame *frame, FilteringContext * filter_ctx);
+
+
 
 protected:
     int sws_flags;
