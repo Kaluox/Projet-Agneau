@@ -15,6 +15,7 @@ class QDetectFilter : public QAbstractVideoFilter
 
 		/**
 		 * A method which create and return an instance of the QVideoFilterRunnable class based on the instance of the QDetectFilter class.
+		 * @return An instance of the QVideoFilterRunnable class.
 		 */
 		QVideoFilterRunnable* createFilterRunnable();
 };

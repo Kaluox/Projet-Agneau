@@ -8,33 +8,49 @@
 #include <QVBoxLayout>
 #include <QWidget>
 
-class ObjectHistogramWindow : public QDialog{
+class ObjectHistogramWindow : public QDialog
+{
     private :
-        QVBoxLayout* qVBoxLayout ;
+        QVBoxLayout* qVBoxLayout;
 
-        QHBoxLayout* qHboxLayoutColorInformation ;
-        QLabel* qLabelRed ;
-        QLabel* qLabelRedMin ;
-        QLabel* qLabelRedMax ;
+        QHBoxLayout* qHboxLayoutColorInformation;
+        QLabel* qLabelRed;
+        QLabel* qLabelRedMin;
+        QLabel* qLabelRedMax;
 
-        QLabel* qLabelGreen ;
-        QLabel* qLabelGreenMin ;
-        QLabel* qLabelGreenMax ;
+        QLabel* qLabelGreen;
+        QLabel* qLabelGreenMin;
+        QLabel* qLabelGreenMax;
 
-        QLabel* qLabelBlue ;
-        QLabel* qLabelBlueMin ;
-        QLabel* qLabelBlueMax ;
+        QLabel* qLabelBlue;
+        QLabel* qLabelBlueMin;
+        QLabel* qLabelBlueMax;
 
-        QHBoxLayout* qHboxLayoutHist ;
-        QLabel* qLabelRedHist ;
-        QLabel* qLabelGreenHist ;
-        QLabel* qLabelBlueHist ;
+        QHBoxLayout* qHboxLayoutHist;
+        QLabel* qLabelRedHist;
+        QLabel* qLabelGreenHist;
+        QLabel* qLabelBlueHist;
 
-        void init() ;
+        /**
+         * A method which draws the histogram.
+         */
+        void init();
+
     public:
+        /**
+         * The constructor by default of the ObjectHistogramWindow class.
+         */
         ObjectHistogramWindow();
-        void setQLabelHistogram(QImage redHis, QImage greenHist, QImage blueHist, int redMin, int redMax, int greenMin, int greenMax, int blueMin, int blueMax) ;
-        ~ObjectHistogramWindow() ;
+
+        /**
+         * The destructor of the ObjectHistogramWindow class.
+         */
+        ~ObjectHistogramWindow();
+
+        /**
+         * A method which draws the legend of the histogram.
+         */
+        void setQLabelHistogram(QImage redHis, QImage greenHist, QImage blueHist, int redMin, int redMax, int greenMin, int greenMax, int blueMin, int blueMax);
 };
 
 #endif // OBJECTHISTOGRAMWINDOW_H
