@@ -5,6 +5,7 @@ QDetectFilter::QDetectFilter()
 
 }
 
-QVideoFilterRunnable* QDetectFilter::createFilterRunnable() {
+QVideoFilterRunnable* QDetectFilter::createFilterRunnable()
+{
     return new QDetectFilterRunnable(this);
 }
