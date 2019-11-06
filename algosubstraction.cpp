@@ -86,7 +86,7 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
              double x = myTrajectory.getCenterList().back().getCenter().x;
              double y = myTrajectory.getCenterList().back().getCenter().y;
             if(sqrt((x-center.x)*(x-center.x) + (y-center.y)*(y-center.y))<shiftMax){
-                Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
+                Node nodecenter(center, QDateTime::currentDateTime(), nbFrame);
                 myTrajectory.addPoint(nodecenter);
                 double obj_x = center.x - radius*2/3;
                 double obj_y = center.y - radius*2/3;
@@ -103,7 +103,7 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
             //If it is the first image
             if(firstFrame){
                 firstFrame = false;
-                Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
+                Node nodecenter(center, QDateTime::currentDateTime(), nbFrame);
                 myTrajectory.addPoint(nodecenter);
                 //circle( currentFrame, center, (int)radius, color, 2, 8, 0 );//draw circle
                 //circle( currentFrame, center, 2, color, -1, 8, 0 );//draw the center of circle
@@ -113,7 +113,7 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
             }else if(sqrt((myTrajectory.getLastCenter().getCenter().x-center.x)*(myTrajectory.getLastCenter().getCenter().x-center.x)
                      + (myTrajectory.getLastCenter().getCenter().y-center.y)*(myTrajectory.getLastCenter().getCenter().y-center.y))<shiftMax*3/2)
             {
-                Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
+                Node nodecenter(center, QDateTime::currentDateTime(), nbFrame);
                 myTrajectory.addPoint(nodecenter);
                 //circle( currentFrame, center, (int)radius, color, 2, 8, 0 );
                 //circle( currentFrame, center, 2, color, -1, 8, 0 );
@@ -127,7 +127,7 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
                 }else{
                     count_refond=0;
                     if(center.x > 0 && center.y > 0){
-                        Nodes nodecenter(center, QDateTime::currentDateTime(), nbFrame);
+                        Node nodecenter(center, QDateTime::currentDateTime(), nbFrame);
                         myTrajectory.addPoint(nodecenter);
                         //circle( currentFrame, center, (int)radius, color, 2, 8, 0 );
                         //circle( currentFrame, center, 2, color, -1, 8, 0 );

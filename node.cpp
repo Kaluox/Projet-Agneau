@@ -1,23 +1,23 @@
 #include "node.h"
 
-Nodes::Nodes()
+Node::Node()
 {
 	tmpCurrentFrame = -1;
 }
 
-Nodes::Nodes(cv::Point2f center, QDateTime timeNow, int tmpCurrentFrame)
+Node::Node(cv::Point2f center, QDateTime timeNow, int tmpCurrentFrame)
 {
 	this->center = center;
 	this->timeNow = timeNow;
 	this->tmpCurrentFrame = tmpCurrentFrame;
 }
 
-cv::Point2f& Nodes::getCenter()
+cv::Point2f& Node::getCenter()
 {
 	return center;
 }
 
-QString Nodes::nodeToString()
+QString Node::nodeToString()
 {
 	char bufferx[50], buffery[50];
 

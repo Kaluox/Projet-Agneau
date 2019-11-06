@@ -1,25 +1,28 @@
 #include "trajectory.h"
 
-Trajectory::Trajectory(){}
+Trajectory::Trajectory()
+{
 
-void Trajectory::addPoint(Nodes& node)
+}
+
+void Trajectory::addPoint(Node& node)
 {
 	centerList.push_back(node);
 }
 
-vector<Nodes>& Trajectory::getCenterList()
+vector<Node>& Trajectory::getCenterList()
 {
 	return centerList;
 }
 
-void Trajectory::setLastCenter(Nodes& node)
+void Trajectory::setLastCenter(Node& node)
 {
 	centerBack = node;
 }
 
-Nodes Trajectory::getLastCenter()
+Node Trajectory::getLastCenter()
 {
-	return centerBack;
+	return lastCenter;
 }
 
 void Trajectory::drawTrajectoire(cv::Mat& frame)

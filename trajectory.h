@@ -9,11 +9,11 @@
 class Trajectory
 {
     private:
-        /** The trajectory, stored as a list of Nodes objects. */
-        std::vector<Nodes> centerList;
+        /** The trajectory, stored as a list of Node objects. */
+        std::vector<Node> centerList;
 
         /** The last value of the array 'center'. */
-        Nodes centerBack;
+        Node lastCenter;
 
     public:
         /**
@@ -25,7 +25,7 @@ class Trajectory
          * A method which adds a point to the trajectory.
          * @param node The point that is added to the trajectory.
          */
-        void addPoint(Nodes& node);
+        void addPoint(Node& node);
 
         /**
          * A method which draws the trajectory in an OpenCV matrix.
@@ -34,22 +34,22 @@ class Trajectory
         void drawTrajectoire(cv::Mat& frame);
 
         /**
-         * A method which returns the trajectory as a list of Nodes objects.
+         * A method which returns the trajectory as a list of Node objects.
          * @return The trajectory.
          */
-        std::vector<Nodes>& getCenterList();
+        std::vector<Node>& getCenterList();
 
         /**
          * Set the 'centerBack' attribute to the value passed as an argument.
          * @param node The new value of the 'centerBack' attribute.
          */
-        void setLastCenter(Nodes& node);
+        void setLastCenter(Node& node);
 
         /**
          * Get the value of the 'centerBack' attribute.
          * @return The value of the 'centerBack' attribute.
          */
-        Nodes getLastCenter();
+        Node getLastCenter();
 };
 
 #endif // TRAJECTORY_H

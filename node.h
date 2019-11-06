@@ -9,7 +9,7 @@
 /**
  * The class which stores a point of a trajectory.
  */
-class Nodes
+class Node
 {
 	private:
 		/** The coordinates of the point on the video. */
@@ -23,17 +23,17 @@ class Nodes
 
 	public:
 		/**
-		 * The constructor by default of the Nodes class.
+		 * The constructor by default of the Node class.
 		 */
-		Nodes();
+		Node();
 
 		/**
-		 * A custom constructor of the Nodes class.
+		 * A custom constructor of the Node class.
 		 * @param center The point on the video.
 		 * @param timeNow The time of the video matching the point.
 		 * @param tmpCurrentFrame The number of the frame.
 		 */
-		Nodes(cv::Point2f center, QDateTime timeNow, int tmpCurrentFrame);
+		Node(cv::Point2f center, QDateTime timeNow, int tmpCurrentFrame);
 
 		/**
 		 * A method which returns a reference to the Point2f OpenCV object storing the coordinates of the points on the video.
