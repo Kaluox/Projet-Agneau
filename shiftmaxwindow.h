@@ -8,19 +8,31 @@
 #include <QLabel>
 #include <QHBoxLayout>
 
-class ShiftMaxWindow : public QDialog{
-    private:
-        QHBoxLayout* qHBoxLayout ;
-        QLabel* qLabel ;
-        QLineEdit* qLineEdit ;
-        QPushButton* qPushButton ;
+class ShiftMaxWindow : public QDialog
+{
+	private:
+		QHBoxLayout* qHBoxLayout ;
+		QLabel* qLabel ;
+		QLineEdit* qLineEdit ;
+		QPushButton* qPushButton ;
 
-        void init() ;
-    public:
-        ShiftMaxWindow();
-        QLineEdit* getQLineEdit() ;
-        QPushButton* getQPushButton() ;
-        ~ShiftMaxWindow() ;
+		/**
+		* A method which draws the window.
+		*/
+		void init();
+	public:
+		/**
+		* The constructor by default of the ShiftMaxWindow class.
+		*/
+		ShiftMaxWindow();
+
+		/**
+		* The destructor of the ShiftMaxWindow class.
+		*/
+		~ShiftMaxWindow();
+
+		QLineEdit* getQLineEdit() ;
+		QPushButton* getQPushButton() ;
 };
 
 #endif // SHIFTMAXWINDOW_H
