@@ -204,23 +204,31 @@ private:
 
 
 protected:
-    int sws_flags;
+    //Value that will store the duration of the video
     double duration;
+
+    // Stores the number of frames, is used to get the time moving in the video
     double framerate;
-    int frameVideo;
-    int frameAudio;
+
+    // Time of beginning of the video
     int start;
+
+    // Time value at the end of the video
     int end;
+
+    // Width of the window showing the video
     int width;
+
+    // Height of the window showing the video
     int height;
-    int bitrate;
-    bool haveVideo;
-    bool haveAudio;
+
+    // Name of the file
     std::string filename;
-    AVPixelFormat stream_pix_fmt;
-    QList<AVFrame *> videoFrames;
-    QList<AVFrame *> audioFrames;
+
+    //
     AVFormatContext *ifmt_ctx;
+
+    //
     AVFormatContext *ofmt_ctx;
 };
 
