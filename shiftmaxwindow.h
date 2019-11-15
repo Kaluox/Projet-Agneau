@@ -31,8 +31,15 @@ class ShiftMaxWindow : public QDialog
 		*/
 		~ShiftMaxWindow();
 
-		QLineEdit* getQLineEdit() ;
-		QPushButton* getQPushButton() ;
+		/**
+		 * A method which returns the qLineEdit variable.
+		 */
+		QLineEdit* getQLineEdit();
+
+		/**
+		 * A method which returns the qPushButton variable.
+		 */
+		QPushButton* getQPushButton();
 };
 
 #endif // SHIFTMAXWINDOW_H
