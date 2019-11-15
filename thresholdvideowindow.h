@@ -11,18 +11,33 @@
 #include <QPushButton>
 #include <QSlider>
 #include <QString>
-class ThresholdVideoWindow : public QDialog{
-    private:
-        QLabel* qLabelThreshold ;
-        QVBoxLayout* qVBoxlayout ;
+class ThresholdVideoWindow : public QDialog
+{
+	private:
+		QLabel* qLabelThreshold;
+		QVBoxLayout* qVBoxlayout;
 
-        void init();
+		/**
+		 * A method which initializes the instancied object.
+		 */
+		void init();
 
-    public:
-        ThresholdVideoWindow();
-        void displayImage(QImage img) ;
+	public:
+		/**
+		 * The constructor by default of the Model class.
+		 */
+		ThresholdVideoWindow();
+		
+		/**
+		 * The destructor of the Model class.
+		 */
+		~ThresholdVideoWindow();
 
-        ~ThresholdVideoWindow() ;
+		/**
+		 * A method which sets the content of the window to a given image.
+		 * @return The image that should be displayed.
+		 */
+		void displayImage(QImage img);
 };
 
 #endif // THRESHOLDVIDEOWINDOW_H
