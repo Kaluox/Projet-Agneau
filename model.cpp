@@ -1,5 +1,7 @@
 #include "model.h"
 
+// This file regroups the video and the sound to be used. This is made to match the model part of the MVC
+
 Model::Model()
 {
 	video = new Video();

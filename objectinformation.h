@@ -29,9 +29,26 @@ class ObjectInformation
 		 * @return The OpenCV Point that corresponds to the center.
 		 */
 		cv::Point2f getCenter();
+
+        /**
+         * A method which returns the raduis of the circle containing the object followed
+         * @return Float Radius
+         */
 		float getRadius();
+
+		/**
+		 * Setter of Contours
+		 */
 		void setContours(vector<vector<cv::Point>>);
+
+		/**
+		 * Setter of the value of the center
+		 */
 		void setCenter(cv::Point2f);
+
+		/**
+		 * Setter of the value of the radius
+		 */
 		void setRadius(float);
 };
 

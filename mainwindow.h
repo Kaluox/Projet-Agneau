@@ -16,6 +16,9 @@
 #include <QMouseEvent>
 #include "QCustomPlot/qcustomplot.h"
 #include "soundwave.h"
+
+// This file is used to initialize the main window.
+
 class QLabelVideoDisplay : public QLabel{
     Q_OBJECT
     public:
