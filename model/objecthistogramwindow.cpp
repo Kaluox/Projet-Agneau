@@ -1,4 +1,4 @@
-#include "objecthisrogramwindow.h"
+#include "objecthistogramwindow.h"
 
 ObjectHistogramWindow::ObjectHistogramWindow(){
     qVBoxLayout = new QVBoxLayout ;

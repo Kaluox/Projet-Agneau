@@ -2,7 +2,7 @@
 #define SOUNDWAVE_H
 
 #include <QAudioBuffer>
-#include "qcustomplot.h"
+#include "../view/qcustomplot.h"
 
 class QAudioDecoder;
 

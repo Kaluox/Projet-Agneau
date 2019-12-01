@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="eddd051f-4988-41cc-bf63-c8d16ba22333" name="Default Changelist" comment="GestionVideo commented">
+      <change beforePath="$PROJECT_DIR$/QCustomPlot/qcustomplot.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QCustomPlot/qcustomplot.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/algocolors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/algocolors.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algocolors.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/algocolors.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algosubstraction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/algosubstraction.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algosubstraction.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/algosubstraction.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cascadestylesheetloader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/cascadestylesheetloader.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cascadestylesheetloader.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/cascadestylesheetloader.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractvideowindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/extractvideowindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/extractvideowindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/extractvideowindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionvideo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/gestionvideo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gestionvideo.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/gestionvideo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/mainwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/mainwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/node.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objecthisrogramwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/objecthistogramwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objecthisrogramwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/objecthistogramwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objectinformation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/objectinformation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/objectinformation.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/objectinformation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qcustomplot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/qcustomplot.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qcustomplot.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/qcustomplot.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdetectfilter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/qdetectfilter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/qdetectfilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/qdetectfilter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiftmaxwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/shiftmaxwindow.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiftmaxwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/shiftmaxwindow.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/sound.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sound.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/sound.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soundwave.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/soundwave.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/soundwave.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/soundwave.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trajectory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/trajectory.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/trajectory.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/trajectory.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/video.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/video.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/video.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/view.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/view.h" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/thresholdvideowindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/thresholdvideowindow.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Decter.pro">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1105">
+              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moc_controller.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources.qrc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/qrc_resources.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moc_video.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/moc_qcustomplot.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/shiftmaxwindow.h">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/qdetectfilter.cpp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>calcHist</find>
+      <find>shiftMa</find>
+      <find>shiftMax</find>
+      <find>myTrajectoire</find>
+      <find>condition</find>
+      <find>basedocu</find>
+      <find>filter_ctx</find>
+      <find>duration</find>
+      <find>sws_flags</find>
+      <find>frameAudio</find>
+      <find>frameVideo</find>
+      <find>framerate</find>
+      <find>start</find>
+      <find>width</find>
+      <find>bitrate</find>
+      <find>haveVideo</find>
+      <find>haveAudio</find>
+      <find>stream_pix_fmt</find>
+      <find>videoFrames</find>
+      <find>audioFrames</find>
+      <find>ofmt_ctx</find>
+      <find>filename</find>
+      <find>ifmt_ctx</find>
+      <find>contours</find>
+      <find>radius</find>
+      <find>setContours</find>
+      <find>setCenter</find>
+      <find>getCenter</find>
+      <find>setRadius</find>
+      <find>ShiftMaxWindow</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Decter.pro" />
+        <option value="$PROJECT_DIR$/algocolors.h" />
+        <option value="$PROJECT_DIR$/algocolors.cpp" />
+        <option value="$PROJECT_DIR$/algosubstraction.h" />
+        <option value="$PROJECT_DIR$/cascadestylesheetloader.cpp" />
+        <option value="$PROJECT_DIR$/cascadestylesheetloader.h" />
+        <option value="$PROJECT_DIR$/extractvideowindow.cpp" />
+        <option value="$PROJECT_DIR$/extractvideowindow.h" />
+        <option value="$PROJECT_DIR$/gestionvideo.cpp" />
+        <option value="$PROJECT_DIR$/video.cpp" />
+        <option value="$PROJECT_DIR$/gestionvideo.h" />
+        <option value="$PROJECT_DIR$/model.cpp" />
+        <option value="$PROJECT_DIR$/algosubstraction.cpp" />
+        <option value="$PROJECT_DIR$/objectinformation.cpp" />
+        <option value="$PROJECT_DIR$/objectinformation.h" />
+        <option value="$PROJECT_DIR$/main.cpp" />
+        <option value="$PROJECT_DIR$/mainwindow.h" />
+        <option value="$PROJECT_DIR$/View/view.h" />
+        <option value="$PROJECT_DIR$/model/algosubstraction.h" />
+        <option value="$PROJECT_DIR$/controller/controller.h" />
+        <option value="$PROJECT_DIR$/model/soundwave.h" />
+        <option value="$PROJECT_DIR$/thresholdvideowindow.cpp" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="814" />
+    <option name="height" value="867" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Projet-Agneau" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\alexi\CLionProjects\Projet-Agneau\view" />
+      <recent name="C:\Users\alexi\CLionProjects\Projet-Agneau\model" />
+      <recent name="C:\Users\alexi\CLionProjects\Projet-Agneau\controller" />
+      <recent name="C:\Users\alexi\CLionProjects\Projet-Agneau\View" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="eddd051f-4988-41cc-bf63-c8d16ba22333" name="Default Changelist" comment="" />
+      <created>1569245601234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1569245601234</updated>
+      <workItem from="1569245623432" duration="919000" />
+      <workItem from="1569489410380" duration="648000" />
+      <workItem from="1569490403823" duration="1065000" />
+      <workItem from="1569845811902" duration="1922000" />
+      <workItem from="1570006778292" duration="2203000" />
+      <workItem from="1570027153109" duration="3473000" />
+      <workItem from="1570180283404" duration="1858000" />
+      <workItem from="1570623871131" duration="8579000" />
+      <workItem from="1571063606637" duration="5141000" />
+      <workItem from="1571400692301" duration="4760000" />
+      <workItem from="1571841859929" duration="3455000" />
+      <workItem from="1573033934476" duration="4540000" />
+      <workItem from="1573220454140" duration="592000" />
+      <workItem from="1573222013163" duration="1671000" />
+      <workItem from="1573564207038" duration="4011000" />
+      <workItem from="1573823772859" duration="3576000" />
+      <workItem from="1573829203880" duration="273000" />
+      <workItem from="1574070242940" duration="4283000" />
+      <workItem from="1574677679962" duration="2079000" />
+      <workItem from="1574869802282" duration="4377000" />
+      <workItem from="1575194410689" duration="376000" />
+    </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1569490880142</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1569490880142</updated>
+    </task>
+    <task id="LOCAL-00002" summary="First commit">
+      <created>1570182830516</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1570182830516</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Algocolors commented">
+      <created>1570634159403</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570634159403</updated>
+    </task>
+    <task id="LOCAL-00004" summary="AlgoSubstraction">
+      <created>1571068260234</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1571068260234</updated>
+    </task>
+    <task id="LOCAL-00005" summary="CascadeStyleSheetloader">
+      <created>1571403309645</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571403309646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ExtractVideoWindow commented">
+      <created>1571842328894</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571842328894</updated>
+    </task>
+    <task id="LOCAL-00007" summary="GestionVideo commented">
+      <created>1571846144804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1571846144804</updated>
+    </task>
+    <task id="LOCAL-00008" summary="GestionVideo commented">
+      <created>1573568995460</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573568995460</updated>
+    </task>
+    <task id="LOCAL-00009" summary="GestionVideo commented">
+      <created>1574074496044</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574074496044</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="59801000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.32133675" />
+      <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.31362468" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49100256" visible="true" weight="0.04037685" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50899744" side_tool="true" visible="true" weight="0.04037685" />
+      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32974428" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" auto_hide="true" x="597" y="143" width="483" height="170" id="Documentation" order="4" side_tool="true" type="FLOATING" weight="0.32969153" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Algocolors commented" />
+    <MESSAGE value="AlgoSubstraction" />
+    <MESSAGE value="CascadeStyleSheetloader" />
+    <MESSAGE value="ExtractVideoWindow commented" />
+    <MESSAGE value="GestionVideo commented" />
+    <option name="LAST_COMMIT_MESSAGE" value="GestionVideo commented" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/ressources/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3599">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/view.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sound.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-661" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/soundwave.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-967" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moc_mainwindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sound.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/qcustomplot.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/trajectory.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/extractvideowindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="1062" selection-end-line="1083" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/model.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/model.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="105" selection-start-line="2" selection-start-column="105" selection-end-line="2" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/node.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/mainwindow.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/view.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/mainwindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="110" selection-start-line="19" selection-start-column="110" selection-end-line="19" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/video.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6494">
+          <caret line="382" column="13" selection-start-line="382" selection-start-column="12" selection-end-line="382" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/video.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="42" column="34" selection-start-line="42" selection-start-column="34" selection-end-line="42" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/objectinformation.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="71" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/algocolors.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="28" column="78" selection-start-line="28" selection-start-column="78" selection-end-line="28" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/algocolors.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/algosubstraction.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="591">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/algosubstraction.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cascadestylesheetloader.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/cascadestylesheetloader.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/extractvideowindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-213">
+          <caret line="3" column="104" selection-start-line="3" selection-start-column="104" selection-end-line="3" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/gestionvideo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="291" column="25" selection-start-line="291" selection-start-column="25" selection-end-line="291" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/gestionvideo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+          <folding>
+            <element signature="e#154#180#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/objecthistogramwindow.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/objecthistogramwindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-433" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/objectinformation.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="49" column="44" selection-start-line="49" selection-start-column="44" selection-end-line="49" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/QCustomPlot/qcustomplot.h" />
+    <entry file="file://$PROJECT_DIR$/model/soundwave.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/qcustomplot.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/qdetectfilter.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/shiftmaxwindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/shiftmaxwindow.h">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/qdetectfilter.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decter.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1105">
+          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moc_controller.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrc_resources.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moc_video.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moc_qcustomplot.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.qrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thresholdvideowindow.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/thresholdvideowindow.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

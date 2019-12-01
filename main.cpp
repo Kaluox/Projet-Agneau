@@ -1,9 +1,12 @@
 #include <QApplication>
-#include "view.h"
-#include "model.h"
-#include "controller.h"
-#include "cascadestylesheetloader.h"
+#include "View/view.h"
+#include "model/model.h"
+#include "controller/controller.h"
+#include "view/cascadestylesheetloader.h"
 
+
+// Main of the application, it will create a translator according to the location of the device and then
+// create and instance of the view, the model and then the controller.
 int main(int argc, char *argv[]){
     QApplication a(argc, argv);
     //QTextCodec::setCodecForLocale( QTextCodec::codecForName("utf8") );

@@ -9,7 +9,7 @@
 #include <QFile>
 #include <QTimer>
 #include <QMessageBox>
-#include "cascadestylesheetloader.h"
+#include "../view/cascadestylesheetloader.h"
 
 Video::Video() : QThread() {
     algoColors = new AlgoColors() ;
