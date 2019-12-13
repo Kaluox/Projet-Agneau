@@ -1,4 +1,5 @@
 #include <QApplication>
+#include <QPushButton>
 #include "View/view.h"
 #include "model/model.h"
 #include "controller/controller.h"
