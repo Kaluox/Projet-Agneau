@@ -13,12 +13,12 @@
 #include <QTextCodec>
 #include <QTime>
 
-#include "cascadestylesheetloader.h"
-#include <gestionvideo.h>
+#include "../view/cascadestylesheetloader.h"
+#include "gestionvideo.h"
 #include <global.h>
 #include <ml/Dtw.h>
-#include <model.h>
-#include <soundwave.h>
+#include "model.h"
+#include "soundwave.h"
 #include <source/FramesCollection.h>
 #include <source/generator/SineGenerator.h>
 #include <source/WaveFile.h>

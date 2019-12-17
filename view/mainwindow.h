@@ -14,10 +14,10 @@
 #include <QStatusBar>
 #include <QCheckBox>
 #include <QMouseEvent>
-#include "QCustomPlot/qcustomplot.h"
-#include "soundwave.h"
+#include "../QCustomPlot/qcustomplot.h"
+#include "../model/soundwave.h"
 
-// This file is used to initialize the main window.
+// This file is used to initialize the main window ie the primary view containing the video and sound display.
 
 class QLabelVideoDisplay : public QLabel{
     Q_OBJECT

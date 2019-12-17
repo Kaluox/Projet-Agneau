@@ -5,7 +5,7 @@
 #include <QColorDialog>
 #include "mainwindow.h"
 #include "shiftmaxwindow.h"
-#include "objecthisrogramwindow.h"
+#include "objecthistogramwindow.h"
 #include "thresholdvideowindow.h"
 #include "extractvideowindow.h"
 
