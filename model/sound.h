@@ -16,7 +16,7 @@
 #include <QThread>
 #include <QWaitCondition>
 
-#include "../QCustomPlot/qcustomplot.h"
+#include "../view/qcustomplot.h"
 
 #include "soundwave.h"
 

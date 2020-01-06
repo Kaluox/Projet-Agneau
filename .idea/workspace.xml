@@ -1,57 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
-    <generated />
+    <generated>
+      <config projectName="Projet_Agneau" targetName="Projet_Agneau" />
+      <config projectName="Projet_Agneau" targetName="Projet_Agneau_autogen" />
+    </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddd051f-4988-41cc-bf63-c8d16ba22333" name="Default Changelist" comment="GestionVideo commented">
-      <change beforePath="$PROJECT_DIR$/QCustomPlot/qcustomplot.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/QCustomPlot/qcustomplot.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algocolors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/algocolors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algocolors.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/algocolors.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algosubstraction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/algosubstraction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/algosubstraction.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/algosubstraction.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cascadestylesheetloader.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/cascadestylesheetloader.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cascadestylesheetloader.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/cascadestylesheetloader.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller.h" beforeDir="false" afterPath="$PROJECT_DIR$/controller/controller.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractvideowindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/extractvideowindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/extractvideowindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/extractvideowindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionvideo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/gestionvideo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gestionvideo.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/gestionvideo.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/mainwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mainwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/mainwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/model.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/node.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/node.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objecthisrogramwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/objecthistogramwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objecthisrogramwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/objecthistogramwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objectinformation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/objectinformation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/objectinformation.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/objectinformation.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qcustomplot.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/qcustomplot.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qcustomplot.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/qcustomplot.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdetectfilter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/qdetectfilter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qdetectfilter.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/qdetectfilter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiftmaxwindow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/shiftmaxwindow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiftmaxwindow.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/shiftmaxwindow.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/sound.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sound.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/sound.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soundwave.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/soundwave.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/soundwave.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/soundwave.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trajectory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/trajectory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/trajectory.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/trajectory.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/video.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/video.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/video.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/view/view.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/view.h" beforeDir="false" afterPath="$PROJECT_DIR$/view/view.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/decter_src 2.1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/decter_src 2.1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/sound.h" beforeDir="false" afterPath="$PROJECT_DIR$/model/sound.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/sonar-project.properties" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
+    <ignored path="$PROJECT_DIR$/cmake-build-debug-cygwin/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,68 +31,80 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/thresholdvideowindow.h">
+        <entry file="file://$PROJECT_DIR$/Decter.pro">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+            <state relative-caret-position="952">
+              <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/thresholdvideowindow.cpp">
+        <entry file="file://$PROJECT_DIR$/model/node.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="42" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="42" />
+            <state relative-caret-position="51">
+              <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Decter.pro">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Projet_Agneau.cbp">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/controller/controller.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
+            <state relative-caret-position="17">
+              <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moc_controller.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/controller/controller.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources.qrc">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/qrc_resources.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moc_video.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moc_qcustomplot.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/shiftmaxwindow.h">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/qdetectfilter.cpp">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/main.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret selection-end-column="23" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -186,9 +168,14 @@
         <option value="$PROJECT_DIR$/mainwindow.h" />
         <option value="$PROJECT_DIR$/View/view.h" />
         <option value="$PROJECT_DIR$/model/algosubstraction.h" />
-        <option value="$PROJECT_DIR$/controller/controller.h" />
         <option value="$PROJECT_DIR$/model/soundwave.h" />
         <option value="$PROJECT_DIR$/thresholdvideowindow.cpp" />
+        <option value="$PROJECT_DIR$/sonar-project.properties" />
+        <option value="$PROJECT_DIR$/controller/controller.h" />
+        <option value="$PROJECT_DIR$/controller/controller.cpp" />
+        <option value="$PROJECT_DIR$/model/sound.h" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/model/node.h" />
       </list>
     </option>
   </component>
@@ -207,8 +194,17 @@
         <subPane>
           <expand>
             <path>
-              <item name="Projet-Agneau" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet_Agneau" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet_Agneau" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Projet_Agneau" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
@@ -221,10 +217,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.cpp" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -245,6 +241,28 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="CMake Application.Test">
+    <configuration name="Projet_Agneau" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projet_Agneau" TARGET_NAME="Projet_Agneau" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Projet_Agneau" RUN_TARGET_NAME="Projet_Agneau">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Projet_Agneau_autogen" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Projet_Agneau" TARGET_NAME="Projet_Agneau_autogen" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$PROJECT_DIR$/main.cpp" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake Application.Test" />
+      <item itemvalue="CMake Application.Projet_Agneau" />
+      <item itemvalue="CMake Application.Projet_Agneau_autogen" />
+    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -277,6 +295,22 @@
       <workItem from="1574677679962" duration="2079000" />
       <workItem from="1574869802282" duration="4377000" />
       <workItem from="1575194410689" duration="376000" />
+      <workItem from="1577098264747" duration="2071000" />
+      <workItem from="1577207154393" duration="1595000" />
+      <workItem from="1577208773536" duration="12000" />
+      <workItem from="1577208787579" duration="1407000" />
+      <workItem from="1577265322230" duration="903000" />
+      <workItem from="1577555868106" duration="2259000" />
+      <workItem from="1577558823950" duration="3225000" />
+      <workItem from="1578051556343" duration="8321000" />
+      <workItem from="1578067219801" duration="613000" />
+      <workItem from="1578067877709" duration="678000" />
+      <workItem from="1578068591299" duration="370000" />
+      <workItem from="1578069003519" duration="55000" />
+      <workItem from="1578069473119" duration="603000" />
+      <workItem from="1578072589067" duration="802000" />
+      <workItem from="1578258127524" duration="4502000" />
+      <workItem from="1578315784521" duration="1190000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1569490880142</created>
@@ -345,12 +379,22 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59801000" />
+    <option name="totallyTimeSpent" value="90985000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.32133675" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.30205655" />
       <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.31362468" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -359,12 +403,14 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49100256" visible="true" weight="0.04037685" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50899744" side_tool="true" visible="true" weight="0.04037685" />
-      <window_info anchor="bottom" id="Messages" order="11" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4877892" weight="0.19380888" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807197" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.22172236" side_tool="true" visible="true" weight="0.32974428" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.77827764" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.76863754" weight="0.32974428" />
+      <window_info anchor="right" id="make" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -425,42 +471,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="GestionVideo commented" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ressources/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3599">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="28" column="6" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/view.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/sound.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-661" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/soundwave.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-967" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moc_mainwindow.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/sound.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/view/qcustomplot.cpp">
       <provider selected="true" editor-type-id="text-editor" />
@@ -472,13 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="1062" selection-end-line="1083" />
         </state>
       </provider>
     </entry>
@@ -582,13 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/controller.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/gestionvideo.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="167">
@@ -606,28 +608,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="70" selection-start-line="8" selection-start-column="70" selection-end-line="8" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/node.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-113">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/objecthistogramwindow.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/objecthistogramwindow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-433" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/model/objecthistogramwindow.cpp" />
+    <entry file="file://$PROJECT_DIR$/model/objecthistogramwindow.h" />
     <entry file="file://$PROJECT_DIR$/model/objectinformation.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -658,13 +640,6 @@
     <entry file="file://$PROJECT_DIR$/view/qdetectfilter.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Decter.pro">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="31" selection-start-line="65" selection-start-column="31" selection-end-line="65" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/moc_controller.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -680,17 +655,73 @@
     <entry file="file://$PROJECT_DIR$/resources.qrc">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/thresholdvideowindow.h">
+    <entry file="file://$PROJECT_DIR$/thresholdvideowindow.h" />
+    <entry file="file://$PROJECT_DIR$/thresholdvideowindow.cpp" />
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sound.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sound.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="38" selection-end-line="37" selection-end-column="38" />
+        <state relative-caret-position="306">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/thresholdvideowindow.cpp">
+    <entry file="file://$PROJECT_DIR$/Decter.pro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="42" />
+        <state relative-caret-position="952">
+          <caret line="56" column="61" selection-start-line="56" selection-start-column="61" selection-end-line="56" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Makefile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake-build-debug/Projet_Agneau.cbp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controller/controller.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/node.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
         </state>
       </provider>
     </entry>
