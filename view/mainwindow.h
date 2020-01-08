@@ -14,7 +14,7 @@
 #include <QStatusBar>
 #include <QCheckBox>
 #include <QMouseEvent>
-#include "../QCustomPlot/qcustomplot.h"
+#include "qcustomplot.h"
 #include "../model/soundwave.h"
 
 // This file is used to initialize the main window ie the primary view containing the video and sound display.

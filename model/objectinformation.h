@@ -4,6 +4,8 @@
 #include <opencv2/core/core.hpp>
 #include <opencv2/highgui/highgui.hpp>
 #include <opencv2/imgproc/imgproc.hpp>
+#include <vector>
+#include "../../../../../OpenCV/sources/modules/core/include/opencv2/core/types.hpp"
 
 class ObjectInformation
 {
@@ -39,7 +41,7 @@ class ObjectInformation
 		/**
 		 * Setter of Contours
 		 */
-		void setContours(vector<vector<cv::Point>>);
+		void setContours(std::vector<std::vector<cv::Point>>);
 
 		/**
 		 * Setter of the value of the center
