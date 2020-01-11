@@ -57,8 +57,8 @@ void AlgoSubstraction::run(cv::Mat & currentFrame, int nbFrame, int& x, int& y)
     morphologyEx(img_act,clean_act,cv::MORPH_OPEN,element);
 
     // Find the contours
-    vector<vector<cv::Point> > contours;
-    vector<cv::Vec4i> hierarchy;
+    std::vector<std::vector<cv::Point> > contours;
+    std::vector<cv::Vec4i> hierarchy;
     findContours(clean_act, contours, hierarchy, cv::RETR_CCOMP, cv::CHAIN_APPROX_SIMPLE );
     myObject.setContours(contours);
     t_end1 = clock();
@@ -177,7 +177,7 @@ cv::Mat AlgoSubstraction::generateBinaryImage(cv::Mat& tmp)
 /// Computes the histogram
 void AlgoSubstraction::computeHistogram(cv::Mat & src){
     // Separate the image in 3 places ( B, G and R )
-    vector<cv::Mat> bgr_planes;
+    std::vector<cv::Mat> bgr_planes;
     double maxRedVal = 0, maxGreenVal = 0, maxBlueVal = 0;
     double redVal = 0, greenVal = 0, blueVal = 0;
     split( src, bgr_planes );

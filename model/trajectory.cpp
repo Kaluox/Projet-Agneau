@@ -10,14 +10,14 @@ void Trajectory::addPoint(Node& node)
 	centerList.push_back(node);
 }
 
-vector<Node>& Trajectory::getCenterList()
+std::vector<Node>& Trajectory::getCenterList()
 {
 	return centerList;
 }
 
 void Trajectory::setLastCenter(Node& node)
 {
-	centerBack = node;
+    Node &centerBack = node;
 }
 
 Node Trajectory::getLastCenter()

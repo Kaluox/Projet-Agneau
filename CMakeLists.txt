@@ -22,6 +22,7 @@ set(CMAKE_PREFIX_PATH ${PROJECT_SOURCE_DIR}/cmake ${CMAKE_PREFIX_PATH})
 
 set(CMAKE_MODULE_PATH C:/ffmpeg-4.2.1-win64-dev/include ${CMAKE_MODULE_PATH})
 set(CMAKE_MODULE_PATH ${PROJECT_SOURCE_DIR}/cmake ${CMAKE_MODULE_PATH})
+set(CMAKE_MODULE_PATH C:/aquila-src/cmake ${CMAKE_MODULE_PATH}})
 
 # PKG-CONFIG is necessary for the packages
 set(PKG_CONFIG_EXECUTABLE "C:/pkg-config_0.26-1_win32/bin")
@@ -31,8 +32,9 @@ set(OPENCV_DIR "C:/OpenCV/build/include")
 # Setting FFMPEG path, link you own path if this doesn't work. The version used is FFMpeg 4.2.1 dev.
 set(FFMPEG_DIR "C:/ffmpeg-4.2.1-win64-dev/include")
 # Setting Aquila path, link your own path if this doesn't work, the path is where the installation was.
-set(AQUILA_ROOT "C:/aquila")
-set(AQUILA_DIR "C:/aquila/aquila")
+#set(SFML_DIR "C:/aquila-src/aquila")
+set(AQUILA_ROOT "C:/Program Files (x86)/Aquila/include/aquila")
+set(AQUILA_DIR "C:/Program Files (x86)/Aquila/include/aquila")
 
 
 message("blep")
@@ -50,17 +52,18 @@ find_package(Qt5 COMPONENTS printsupport REQUIRED)
 # Find the OpenCV packages
 INCLUDE_DIRECTORIES( ${OPENCV_DIR} )
 find_package(OpenCV)
+find_library(OpenCV COMPONENTS REQUIRED)
 # Finding FFMPEG Packages
 INCLUDE_DIRECTORIES(${FFMPEG_DIR})
 find_package(FFMPEG)
 # Finding Aquila Packages
 INCLUDE_DIRECTORIES(${AQUILA_DIR})
-find_package(AQUILA)
+#find_package(AQUILA)
+#INCLUDE_DIRECTORIES(SFML_DIR)
+#find_package(SFML)
 
-#find_package(FFmpeg COMPONENTS AVCODEC AVFORMAT AVUTIL AVFILTER SWSCALE SWRESAMPLE REQUIRED)
 
-#include_directories(${FFMPEG_INCLUDE_DIRS})
-
+include_directories(D:/ProjetAgneau/install)
 
 
 ##### Source files #####
@@ -85,7 +88,8 @@ set(SOURCES
         controller/controller.cpp
         model/gestionvideo.cpp
         view/qcustomplot.cpp
-        view/cascadestylesheetloader.cpp)
+        view/cascadestylesheetloader.cpp
+        emptyfile.cpp)
 
 # Adding the headers in the read files
 include_directories(${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/model ${PROJECT_SOURCE_DIR}/view ${PROJECT_SOURCE_DIR}/controller)
@@ -106,4 +110,5 @@ target_link_libraries(ProjetAgneau Qt5::Gui)
 target_link_libraries(ProjetAgneau Qt5::PrintSupport)
 target_link_libraries(ProjetAgneau OpenCV)
 target_link_libraries(ProjetAgneau FFMPEG)
-target_link_libraries(ProjetAgneau AQUILA)
+#target_link_libraries(ProjetAgneau AQUILA)
+#target_link_libraries(ProjetAgneau SFML)

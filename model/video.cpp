@@ -303,7 +303,7 @@ QImage Video::getImageMouseReleased(int x, int y, int qVideoLabelHeight, int qVi
         //circle(imageOriginal, previousPoint,2,Scalar(255,0,0,0),CV_FILLED, CV_AA,0) ;
 
         imageOriginal.copyTo(imageTmp);
-        cvtColor(frame(cv::Rect(min(currentPoint.x, previousPoint.x), min(currentPoint.y, previousPoint.y), abs(previousPoint.x - currentPoint.x) , abs(previousPoint.y - currentPoint.y))), choosenObject, cv::COLOR_BGR2RGB) ;
+        cvtColor(frame(cv::Rect(fmin(currentPoint.x, previousPoint.x), fmin(currentPoint.y, previousPoint.y), abs(previousPoint.x - currentPoint.x) , abs(previousPoint.y - currentPoint.y))), choosenObject, cv::COLOR_BGR2RGB) ;
         boolFirstFrame = false ;
         previousPoint = cv::Point(-1, -1);
         return mat2QImage(imageOriginal) ;
@@ -427,7 +427,7 @@ void Video::computeHistogramChosenObject(){
     redMin = 0, greenMin = 0, blueMin = 0 ;
     redMax = 255, greenMax = 255, blueMax = 255 ;
     // Separate the image in 3 places ( B, G and R )
-    vector<cv::Mat> bgr_planes;
+    std::vector<cv::Mat> bgr_planes;
     split( choosenObject, bgr_planes );
 
     // Establish the number of bins
