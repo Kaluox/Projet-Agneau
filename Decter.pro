@@ -98,8 +98,6 @@ LIBS += -LC:\ffmpeg-4.1.3-win64-dev\lib
         -lswscale
         -lswresample
         -lavfilter
-
-
 }
 
 RESOURCES += \

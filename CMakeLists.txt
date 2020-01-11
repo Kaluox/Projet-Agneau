@@ -31,7 +31,8 @@ set(OPENCV_DIR "C:/OpenCV/build/include")
 # Setting FFMPEG path, link you own path if this doesn't work. The version used is FFMpeg 4.2.1 dev.
 set(FFMPEG_DIR "C:/ffmpeg-4.2.1-win64-dev/include")
 # Setting Aquila path, link your own path if this doesn't work, the path is where the installation was.
-set(AQUILA_DIR "C:/Program Files (x86)/Aquila/include/aquila")
+set(AQUILA_ROOT "C:/aquila")
+set(AQUILA_DIR "C:/aquila/aquila")
 
 
 message("blep")
@@ -86,6 +87,7 @@ set(SOURCES
         view/qcustomplot.cpp
         view/cascadestylesheetloader.cpp)
 
+# Adding the headers in the read files
 include_directories(${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/model ${PROJECT_SOURCE_DIR}/view ${PROJECT_SOURCE_DIR}/controller)
 
 
