@@ -13,14 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="eddd051f-4988-41cc-bf63-c8d16ba22333" name="Default Changelist" comment="GestionVideo commented">
-      <change afterPath="$PROJECT_DIR$/emptyfile.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/emptyfile.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/algosubstraction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/algosubstraction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/objectinformation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/objectinformation.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/trajectory.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/trajectory.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/video.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/model/video.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-cygwin/" />
@@ -45,20 +39,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+            <state relative-caret-position="490">
+              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+            <state relative-caret-position="-7">
+              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -67,7 +61,7 @@
         <entry file="file://$PROJECT_DIR$/cmake-build-debug/Projet_Agneau_autogen/mocs_compilation.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
-              <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
               <folding>
                 <element signature="e#60#99#0" expanded="true" />
               </folding>
@@ -177,8 +171,8 @@
         <option value="$PROJECT_DIR$/model/video.cpp" />
         <option value="$PROJECT_DIR$/model/objectinformation.cpp" />
         <option value="$PROJECT_DIR$/model/algosubstraction.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/model/trajectory.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
   </component>
@@ -354,7 +348,7 @@
       <workItem from="1578570403507" duration="5434000" />
       <workItem from="1578663075110" duration="3191000" />
       <workItem from="1578734404199" duration="2513000" />
-      <workItem from="1578771775390" duration="4304000" />
+      <workItem from="1578771775390" duration="8048000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1569490880142</created>
@@ -423,7 +417,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132102000" />
+    <option name="totallyTimeSpent" value="135846000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -436,7 +430,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.18766066" />
       <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.31362468" />
@@ -451,9 +444,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4877892" weight="0.19380888" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807197" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.16838047" side_tool="true" visible="true" weight="0.41722745" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.83161956" visible="true" weight="0.41722745" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.7570694" weight="0.32032302" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17287917" side_tool="true" visible="true" weight="0.41722745" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.82712084" visible="true" weight="0.41722745" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.7551414" weight="0.39434725" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -817,24 +810,24 @@
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Projet_Agneau_autogen/mocs_compilation.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="true" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           <folding>
             <element signature="e#60#99#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        <state relative-caret-position="-7">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="19" column="28" lean-forward="true" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
+        <state relative-caret-position="490">
+          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
         </state>
       </provider>
     </entry>

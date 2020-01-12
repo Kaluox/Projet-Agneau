@@ -36,9 +36,7 @@ set(FFMPEG_DIR "C:/ffmpeg-4.2.1-win64-dev/include")
 set(AQUILA_ROOT "C:/Program Files (x86)/Aquila/include/aquila")
 set(AQUILA_DIR "C:/Program Files (x86)/Aquila/include/aquila")
 
-
-message("blep")
-
+include_directories(C:/ffmpeg-4.2.1-win64-dev/lib)
 
 ##### Finding Packages #####
 
@@ -49,18 +47,23 @@ find_package(Qt5 COMPONENTS Multimedia REQUIRED)
 find_package(Qt5 COMPONENTS multimediawidgets REQUIRED)
 find_package(Qt5 COMPONENTS gui REQUIRED)
 find_package(Qt5 COMPONENTS printsupport REQUIRED)
-# Find the OpenCV packages
-INCLUDE_DIRECTORIES( ${OPENCV_DIR} )
-find_package(OpenCV)
-find_library(OpenCV COMPONENTS REQUIRED)
+
 # Finding FFMPEG Packages
+message(\n finding FFMPEG \n)
 INCLUDE_DIRECTORIES(${FFMPEG_DIR})
 find_package(FFMPEG)
+find_library(FFMPEG COMPONENTS REQUIRED)
+
+# Find the OpenCV packages
+message(\n finding OPENCV \n)
+INCLUDE_DIRECTORIES( ${OPENCV_DIR} )
+find_package(OPENCV)
+find_library(OpenCV COMPONENTS REQUIRED)
+
 # Finding Aquila Packages
+message(\n finding AQUILA \n)
 INCLUDE_DIRECTORIES(${AQUILA_DIR})
-#find_package(AQUILA)
-#INCLUDE_DIRECTORIES(SFML_DIR)
-#find_package(SFML)
+find_library(AQUILA COMPONENTS REQUIRED)
 
 
 include_directories(D:/ProjetAgneau/install)
@@ -108,7 +111,7 @@ target_link_libraries(ProjetAgneau Qt5::Core)
 target_link_libraries(ProjetAgneau Qt5::MultimediaWidgets)
 target_link_libraries(ProjetAgneau Qt5::Gui)
 target_link_libraries(ProjetAgneau Qt5::PrintSupport)
-target_link_libraries(ProjetAgneau OpenCV)
 target_link_libraries(ProjetAgneau FFMPEG)
-#target_link_libraries(ProjetAgneau AQUILA)
+target_link_libraries(ProjetAgneau OpenCV)
+target_link_libraries(ProjetAgneau AQUILA)
 #target_link_libraries(ProjetAgneau SFML)
