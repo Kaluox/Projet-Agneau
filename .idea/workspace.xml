@@ -15,6 +15,7 @@
     <list default="true" id="eddd051f-4988-41cc-bf63-c8d16ba22333" name="Default Changelist" comment="GestionVideo commented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake/FindFFmpeg.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/FindFFmpeg.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-cygwin/" />
@@ -33,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Decter.pro">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
+            <state relative-caret-position="-530">
               <caret line="58" column="124" selection-start-line="58" selection-start-column="124" selection-end-line="58" selection-end-column="124" />
             </state>
           </provider>
@@ -42,8 +43,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+            <state relative-caret-position="2227">
+              <caret line="131" column="53" lean-forward="true" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cmake/FindFFmpeg.cmake">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="388">
+              <caret line="151" selection-start-line="151" selection-end-line="151" />
             </state>
           </provider>
         </entry>
@@ -51,7 +61,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="323">
               <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
             </state>
           </provider>
@@ -84,7 +94,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/model/algosubstraction.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
+            <state relative-caret-position="3332">
               <caret line="196" selection-start-line="196" selection-end-line="196" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
@@ -159,7 +169,6 @@
         <option value="$PROJECT_DIR$/controller/controller.h" />
         <option value="$PROJECT_DIR$/controller/controller.cpp" />
         <option value="$PROJECT_DIR$/model/sound.h" />
-        <option value="$PROJECT_DIR$/cmake/FindFFmpeg.cmake" />
         <option value="$PROJECT_DIR$/model/gestionvideo.h" />
         <option value="$PROJECT_DIR$/view/mainwindow.h" />
         <option value="$PROJECT_DIR$/view/objecthistogramwindow.cpp" />
@@ -172,6 +181,7 @@
         <option value="$PROJECT_DIR$/model/objectinformation.cpp" />
         <option value="$PROJECT_DIR$/model/algosubstraction.cpp" />
         <option value="$PROJECT_DIR$/model/trajectory.cpp" />
+        <option value="$PROJECT_DIR$/cmake/FindFFmpeg.cmake" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
@@ -247,10 +257,10 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.cpp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestAgneau" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pathVariables" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -348,7 +358,9 @@
       <workItem from="1578570403507" duration="5434000" />
       <workItem from="1578663075110" duration="3191000" />
       <workItem from="1578734404199" duration="2513000" />
-      <workItem from="1578771775390" duration="8048000" />
+      <workItem from="1578771775390" duration="8086000" />
+      <workItem from="1578827916108" duration="2921000" />
+      <workItem from="1578861621276" duration="4919000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1569490880142</created>
@@ -417,7 +429,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135846000" />
+    <option name="totallyTimeSpent" value="143724000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -430,8 +442,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.18766066" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.19280206" />
       <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.31362468" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -444,9 +457,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4877892" weight="0.19380888" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807197" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17287917" side_tool="true" visible="true" weight="0.41722745" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.82712084" visible="true" weight="0.41722745" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.7551414" weight="0.39434725" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17480719" side_tool="true" visible="true" weight="0.41722745" />
+      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.8251928" visible="true" weight="0.41722745" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.75385606" weight="0.39434725" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -653,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake/FindFFmpeg.cmake">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2176">
-          <caret line="128" column="37" selection-start-line="128" selection-start-column="37" selection-end-line="128" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/video.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2711">
@@ -677,26 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" column="87" lean-forward="true" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/algosubstraction.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
-          <folding>
-            <element signature="e#0#29#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/cascadestylesheetloader.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          <folding>
-            <element signature="e#14#50#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -727,9 +713,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources.qrc">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/qrc_resources.cpp">
       <provider selected="true" editor-type-id="text-editor" />
@@ -800,10 +783,13 @@
     <entry file="file://$PROJECT_DIR$/emptyfile.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Decter.pro">
+    <entry file="file://$PROJECT_DIR$/resources.qrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="58" column="124" selection-start-line="58" selection-start-column="124" selection-end-line="58" selection-end-column="124" />
+        <state relative-caret-position="323">
+          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -817,17 +803,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
+    <entry file="file://$PROJECT_DIR$/view/cascadestylesheetloader.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+        <state relative-caret-position="17">
+          <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+          <folding>
+            <element signature="e#14#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/algosubstraction.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3332">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Decter.pro">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-530">
+          <caret line="58" column="124" selection-start-line="58" selection-start-column="124" selection-end-line="58" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cmake/FindFFmpeg.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="58" column="17" selection-start-line="58" selection-start-column="17" selection-end-line="58" selection-end-column="17" />
+        <state relative-caret-position="2227">
+          <caret line="131" column="53" lean-forward="true" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
         </state>
       </provider>
     </entry>
