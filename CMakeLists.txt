@@ -1,3 +1,7 @@
+#############################################
+## This CMake was written by Alexis MARLIN ##
+#############################################
+
 cmake_minimum_required(VERSION 3.13)
 project(ProjetAgneau)
 
@@ -37,7 +41,6 @@ set(OPENCV_DIR "C:/OpenCV/build/include")
 set(FFMPEG_DIR "C:/ffmpeg-4.2.1-win64-dev/include")
 
 # Setting Aquila path, link your own path if this doesn't work, the path is where the installation was.
-#set(SFML_DIR "C:/aquila-src/aquila")
 set(AQUILA_ROOT "C:/Program Files (x86)/Aquila/include/aquila")
 set(AQUILA_DIR "C:/Program Files (x86)/Aquila/include/aquila")
 
@@ -55,7 +58,7 @@ find_package(Qt5 COMPONENTS printsupport REQUIRED)
 
 
 # Finding FFMPEG Packages
-message(\n finding FFMPEG \n)
+message(\n finding FFMPEG)
 INCLUDE_DIRECTORIES(${FFMPEG_DIR})
 find_package(FFMPEG)
 find_library(FFMPEG COMPONENTS REQUIRED)
@@ -110,8 +113,7 @@ set(SOURCES
         controller/controller.cpp
         model/gestionvideo.cpp
         view/qcustomplot.cpp
-        view/cascadestylesheetloader.cpp
-        emptyfile.cpp)
+        view/cascadestylesheetloader.cpp)
 
 # Adding the headers in the read files
 include_directories(${PROJECT_SOURCE_DIR} ${PROJECT_SOURCE_DIR}/model ${PROJECT_SOURCE_DIR}/view ${PROJECT_SOURCE_DIR}/controller)

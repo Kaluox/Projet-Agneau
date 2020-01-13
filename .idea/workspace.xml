@@ -14,8 +14,53 @@
   <component name="ChangeListManager">
     <list default="true" id="eddd051f-4988-41cc-bf63-c8d16ba22333" name="Default Changelist" comment="GestionVideo commented">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/.sonar_lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/analysis.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-10.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-11.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-12.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-13.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-14.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-15.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-16.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-17.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-18.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-19.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-2.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-20.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-21.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-3.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-4.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-5.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-6.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-7.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-8.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/measures-9.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-10.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-11.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-12.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-13.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-14.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-15.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-16.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-17.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-18.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-19.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-2.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-20.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-21.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-3.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-4.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-5.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-6.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-7.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-8.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.scannerwork/scanner-report/syntax-highlightings-9.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.sonarcloud.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake/FindFFmpeg.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake/FindFFmpeg.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Decter.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dialog.ui" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sonar-project.properties" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug-cygwin/" />
@@ -31,61 +76,77 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Decter.pro">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-530">
-              <caret line="58" column="124" selection-start-line="58" selection-start-column="124" selection-end-line="58" selection-end-column="124" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2227">
-              <caret line="131" column="53" lean-forward="true" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
+            <state relative-caret-position="340">
+              <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake/FindFFmpeg.cmake">
+        <entry file="file://$PROJECT_DIR$/model/gestionvideo.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="388">
-              <caret line="151" selection-start-line="151" selection-end-line="151" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="10" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cmake-build-debug/Projet_Agneau_autogen/mocs_compilation.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
+            <state relative-caret-position="425">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
               <folding>
-                <element signature="e#60#99#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/cascadestylesheetloader.cpp">
+        <entry file="file://$PROJECT_DIR$/model/gestionvideo.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
+            <state relative-caret-position="200">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/video.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
               <folding>
-                <element signature="e#14#50#0" expanded="true" />
+                <element signature="e#33#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources.qrc">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ressources/properties.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ressources/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-3681" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/doxygen.cfg">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/mainwindow.h">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+              <folding>
+                <element signature="e#43#65#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -182,6 +243,7 @@
         <option value="$PROJECT_DIR$/model/algosubstraction.cpp" />
         <option value="$PROJECT_DIR$/model/trajectory.cpp" />
         <option value="$PROJECT_DIR$/cmake/FindFFmpeg.cmake" />
+        <option value="$PROJECT_DIR$/model/video.h" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
       </list>
     </option>
@@ -209,43 +271,7 @@
             <path>
               <item name="ProjetAgneau" type="b2602c69:ProjectViewProjectNode" />
               <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetAgneau" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetAgneau" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="Projet_Agneau_autogen" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetAgneau" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="Projet_Agneau_autogen" type="462c0819:PsiDirectoryNode" />
-              <item name="NLOY5YBGEN" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetAgneau" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="Projet_Agneau_autogen" type="462c0819:PsiDirectoryNode" />
-              <item name="NPUKSKGWT2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetAgneau" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Projet-Agneau" type="462c0819:PsiDirectoryNode" />
-              <item name="cmake-build-debug" type="462c0819:PsiDirectoryNode" />
-              <item name="Projet_Agneau_autogen" type="462c0819:PsiDirectoryNode" />
-              <item name="OTUN7GXZT4" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProjetAgneau" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -299,9 +325,9 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="CMake Application.Test" />
       <item itemvalue="CMake Application.ProjetAgneau" />
       <item itemvalue="CMake Application.ProjetAgneau_autogen" />
-      <item itemvalue="CMake Application.Test" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -360,7 +386,8 @@
       <workItem from="1578734404199" duration="2513000" />
       <workItem from="1578771775390" duration="8086000" />
       <workItem from="1578827916108" duration="2921000" />
-      <workItem from="1578861621276" duration="4919000" />
+      <workItem from="1578861621276" duration="5152000" />
+      <workItem from="1578921655979" duration="3843000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1569490880142</created>
@@ -429,7 +456,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143724000" />
+    <option name="totallyTimeSpent" value="147800000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -444,7 +471,7 @@
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.19280206" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913645" visible="true" weight="0.19537275" />
       <window_info id="Structure" order="1" sideWeight="0.50086355" side_tool="true" weight="0.31362468" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -456,10 +483,10 @@
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4993573" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4877892" weight="0.19380888" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49807197" weight="0.32974428" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17480719" side_tool="true" visible="true" weight="0.41722745" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" sideWeight="0.8251928" visible="true" weight="0.41722745" />
-      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.75385606" weight="0.39434725" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4974293" weight="0.32974428" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.17544988" side_tool="true" visible="true" weight="0.41722745" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.82455015" visible="true" weight="0.41722745" />
+      <window_info anchor="bottom" id="CMake" order="12" sideWeight="0.7525707" weight="0.39434725" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -521,25 +548,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="GestionVideo commented" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/view/qcustomplot.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/qdetectfilter.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/shiftmaxwindow.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/shiftmaxwindow.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/qdetectfilter.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/thresholdvideowindow.h" />
     <entry file="file://$PROJECT_DIR$/thresholdvideowindow.cpp" />
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt">
@@ -569,13 +577,6 @@
       </provider>
     </entry>
     <entry file="file://C:/ffmpeg-4.2.2/libavutil/common.h" />
-    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controller/controller.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -597,13 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/gestionvideo.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/view/objecthistogramwindow.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="918">
@@ -621,13 +615,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/model/video.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model/objectinformation.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="714">
@@ -642,13 +629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/mainwindow.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -686,9 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/moc_video.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/moc_qcustomplot.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -702,20 +679,6 @@
           </folding>
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/moc_controller.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#480#546#0" expanded="true" />
-            <element signature="e#581#755#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/qrc_resources.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/cmake-build-debug/Projet_Agneau_autogen/OTUN7GXZT4/moc_qcustomplot.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -783,8 +746,12 @@
     <entry file="file://$PROJECT_DIR$/emptyfile.cpp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources.qrc">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/cmake/FindFFmpeg.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2567">
+          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/model/trajectory.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -823,24 +790,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/Decter.pro">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-530">
-          <caret line="58" column="124" selection-start-line="58" selection-start-column="124" selection-end-line="58" selection-end-column="124" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cmake/FindFFmpeg.cmake">
+    <entry file="file://$PROJECT_DIR$/doxygen.cfg">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/mainwindow.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="388">
-          <caret line="151" selection-start-line="151" selection-end-line="151" />
+        <state relative-caret-position="102">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding>
+            <element signature="e#43#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qrc_resources.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moc_video.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2243" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/moc_controller.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="18" selection-start-line="14" selection-end-line="18" />
+          <folding>
+            <element signature="e#480#546#0" expanded="true" />
+            <element signature="e#581#755#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources.qrc">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/properties.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sonar-project.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ressources/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3681" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/video.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="96" column="13" selection-start-line="96" selection-start-column="13" selection-end-line="96" selection-end-column="13" />
+          <folding>
+            <element signature="e#33#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/gestionvideo.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/gestionvideo.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2227">
-          <caret line="131" column="53" lean-forward="true" selection-start-line="131" selection-start-column="53" selection-end-line="131" selection-end-column="53" />
+        <state relative-caret-position="340">
+          <caret line="59" column="25" lean-forward="true" selection-start-line="59" selection-start-column="25" selection-end-line="59" selection-end-column="25" />
         </state>
       </provider>
     </entry>
